@@ -53,7 +53,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: url(texture3.png) #76A2AD;
+		background: url(texture3.png) #C0C0C0;
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
