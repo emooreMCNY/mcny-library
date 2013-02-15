@@ -76,12 +76,11 @@
                 <form id-"searchform">
                 <div class="fourteen columns">
              
-<script type="text/javascript">new SummonCustomSearchBox({"id":"#s8f0e643051e30130eeee441ea15aa1ac","params":{},"colors":{},"tagline_text":"Easily discover the world of library content","searchbutton_text":"Search","advanced_text":"More search options","advanced":"true","suggest":"true","tagline":"true","popup":"true"})</script>
 
                     </div>
                     <div class="two columns">
                     <input type="submit" id="submit" value="search"/>
-                    <script type="text/javascript">new SummonCustomSearchBox({"id":"#s8f0e643051e30130eeee441ea15aa1ac","params":{},"colors":{},"tagline_text":"Easily discover the world of library content","searchbutton_text":"Search","advanced_text":"More search options","advanced":"true","suggest":"true","tagline":"true","popup":"true"})</script>
+                   
                     </div>
                 </form>
                 
@@ -105,42 +104,38 @@ hours, location, and account ONLY FOR SMALL SCREENS
         
     <div class="content-section">
       
-        <h2 id="locations-mobile" class="heading">Hours - Location - Contact</h2>
+        <h2 id="locations-mobile" class="heading">Hours - Contact Info- Location</h2>
         <div class="content">
        <h3>MCNY Library</a></h3>
             <p>431 Canal Street<br />
+            12th Floor <br />
             New York, NY 10013</p>
-            <p>M-F: 9AM-10PM<br />Sat: 9AM-7PM</p>
+            <p>M-F: 9AM-10PM<br />Sat: 8AM-7PM</p>
             <p>212-343-1234 x2001<br />library@mcny.edu</p>
+            
         	<div class="bigmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=14&size=512x512&maptype=roadmap
-&markers=color:red|label:A|40.702147,-74.015794&markers=color:red|label:B|40.711614,-74.012318
-&markers=color:red|color:red|label:C|40.718217,-73.998284&sensor=false">
+			<img src="http://maps.googleapis.com/maps/api/staticmap?center=431+Canal+Street,New+York,NY&zoom=16&size=512x512&maptype=roadmap
+&markers=color:green|label:40.723091,-74.006896&sensor=false">
 			</div>
             <div class="smallmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=14&size=260x260&maptype=roadmap
-&markers=color:red|label:A|40.702147,-74.015794&markers=color:red|label:B|40.711614,-74.012318
-&markers=color:red|color:red|label:C|40.718217,-73.998284&sensor=false">
+			<img src="http://maps.googleapis.com/maps/api/staticmap?center=431+Canal+Street,New+York,NY&zoom=16&size=260x260&maptype=roadmap
+&markers=color:green|label:40.723091,-74.006896&sensor=false">
+            <p> MTA Stops: Canal Street (ACE, 1)</p>
 			</div>
        
         </div> 
     </div>
     
-    <div class="content-section"> 
-        <h2 id="my-account-mobile" class="heading">My Account</h2>
-    </div> 
-</div>
-
-
+    
 <!----------------------------------------------------
 this is the first of the eight toggling menu sections.
 ----------------------------------------------------->                
                     <div id="section-one" class="content-section">
 
 
-                    <h2 id="heading-one" class="heading first">Books & More</h2> 
+                    <h2 id="heading-one" class="heading first">Finding Books And Articles</h2> 
                     	<div class="content">
-                        <h3>New Books</h3>
+                        <h3>Finding Books And Articles</h3>
                        
                         <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780062093639/SC.GIF&client=sjose" class="bookshelf"></a>
                         <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312531188/SC.GIF&client=sjose" class="bookshelf"></a>
@@ -151,10 +146,7 @@ this is the first of the eight toggling menu sections.
                         <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780374299019/SC.GIF&client=sjose" class="bookshelf"></a>
                         <div style="clear:both;"></div>
                         
-                    		<h3 style="margin-bottom:5px;">Book of the Day</h3> 
-							<a href="#" id="fictionone"><img src="http://syndetics.com/index.aspx?isbn=9780312628093/SC.GIF&client=sjose" class="titles"></a>
-            				 <p><strong><a href="">State of Wonder</a> by Anne Patchett</strong><br />Dr. Marina Singh, a research scientist with a Minnesota pharmaceutical company, is sent to Brazil to track down her former mentor, Dr. Annick Swenson, who seems to have all but disappeared in the Amazon while working on what is destined to be an extremely valuable new drug.                             <div style="clear:both;"></div>            
-                        </div>
+                    		
                     </div>
 
 <!----------------------------------------------------
@@ -163,7 +155,7 @@ this is the second of the eight toggling menu sections.
 
                     <div id="section-two" class="content-section">
 
-                    <h2 id="heading-two" class="heading">Upcoming Events</h2> 
+                    <h2 id="heading-two" class="heading">Research Help</h2> 
                     	<div class="content">
                         <div class="three columns"><a href="#" id="eventone"><img src="images/event1.png" class="events"></a></div>
                         <div class="three columns"><a href="#" id="eventtwo"><img src="images/event2.png" class="events"></a></div>
@@ -175,32 +167,7 @@ this is the second of the eight toggling menu sections.
                         </div>
                     </div>
 
-<script>
-//////////////////////////////////////////////////
-//replace text that matches event image ONE here//
-//////////////////////////////////////////////////
 
-$('#eventone').click(function(){
-$(".eventtext").html("<h3><strong>Library Ferris Wheel</strong></h3><strong>When: April 11th, all day</strong><br />Did you know that the first Ferris Wheel was invented by George Washington Gale Ferris, Jr? No problem. Come to the library and enjoy his invention. ");
-});
-
-//////////////////////////////////////////////////
-//replace text that matches event image TWO here//
-//////////////////////////////////////////////////
-
-$('#eventtwo').click(function(){
-$(".eventtext").html("<h3><strong>Step to the Mic</strong></h3><strong>When: April 20th, 7:30pm</strong><br />Another library poetry slam! Are these even popular?");
-});
-
-//////////////////////////////////////////////////
-//replace text that matches event image THREE here//
-//////////////////////////////////////////////////
-
-$('#eventthree').click(function(){
-$(".eventtext").html("<h3><strong>Niceville Reads War & Peace</strong></h3><strong>When: Most of 2012.</strong><br />You voted and we listened. Everyone is reading War & Peace and we're hosting some programs about it.");
-});
-
-</script>
 
 <!----------------------------------------------------
 this is the third of the eight toggling menu sections.
@@ -208,10 +175,10 @@ this is the third of the eight toggling menu sections.
                     
                     <div id="section-three" class="content-section">
 
-                    <h2 id="heading-three" class="heading">For Kids</h2> 
+                    <h2 id="heading-three" class="heading">Tech Help</h2> 
                     	<div class="content">
 						<div id="kidstext">
-						<h3>Recommended Stuff</h3>
+						<h3>Tech Help</h3>
             			<a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780062093639/SC.GIF&client=sjose" class="bookshelf"></a>
                         <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312531188/SC.GIF&client=sjose" class="bookshelf"></a>
                         <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312536220/SC.GIF&client=sjose" class="bookshelf"></a>
@@ -235,11 +202,11 @@ this is the fourth of the eight toggling menu sections.
                     
                     <div id="section-four" class="content-section">
 
-                    <h2 id="heading-four" class="heading">For Teens</h2> 
+                    <h2 id="heading-four" class="heading">Other Services
                     	<div class="content">
                     	
 						<div id="teenstext">
-						<h3>Recommended Stuff</h3>
+						<h3>Other Services</h3>
             			<a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780062093639/SC.GIF&client=sjose" class="bookshelf"></a>
                         <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312531188/SC.GIF&client=sjose" class="bookshelf"></a>
                         <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312536220/SC.GIF&client=sjose" class="bookshelf"></a>
@@ -263,7 +230,7 @@ this is the fifth of the eight toggling menu sections.
                     
                     <div id="section-five" class="content-section">
 
-                    <h2 id="heading-five" class="heading">Become a Member</h3> 
+                    <h2 id="heading-five" class="heading">Audrey Cohen Archive</h3> 
                     	<div class="content">
                     	<h3>What can I do with a membership?</h3>
             			<p>You'll have access to Niceville's community hub. We'll connect you with entertainment, research, and people.</p>
@@ -279,85 +246,6 @@ this is the fifth of the eight toggling menu sections.
                         </div>
                     </div>
 
-<!----------------------------------------------------
-this is the six of the eight toggling menu sections.
------------------------------------------------------>
-                   
-                    <div id="section-six" class="content-section">
-
-                    <h2 id="heading-six" class="heading">Research</h2> 
-                    	<div class="content">
-                    	<h3>Find Health Information</h3>
-                		<p>
-                		<a href=""><strong>Health Reference Center Academic</strong></a><Br />
-                		Provides articles from many reputable sources.
-                		</p>
-                		<p>
-                		<a href=""><strong>Teen Health and Wellness</strong></a><Br />
-                		This can help you diagnose your teen.
-                		</p>
-            			<h3>Find Company Information</h3>
-                			<p>
-                		<a href=""><strong>ABI/INFORM</strong></a><Br />
-                		Take over your sector with help from articles found here.
-                		</p>
-                		<p>
-                		<a href=""><strong>Value Line</strong></a><Br />
-                		We used to get this in print. Now you must use this.
-                		</p>
-            			                        </div>
-                    </div>      
-
-<!----------------------------------------------------
-this is the seventh of the eight toggling menu sections.
------------------------------------------------------>
-                    
-                    <div id="section-seven" class="content-section">
-
-                    <h2 id="heading-seven" class="heading">Other Library Services</h2> 
-                    	<div class="content">
-                    	<h3>Wifi</h3>
-                    	<p>
-                        Free, open, always on.
-                        </p>
-                        <h3>Meeting Rooms</h3>
-                    	<p>
-                        We have space that you can use for whatever you want. Book it!
-                        </p>
-                        <h3>Dinner Inspiration</h3>
-                    	<p>
-                        Not sure what to make for dinner? We know a lot about our cookbooks. Give us a ring at 555-5555 and we'll hook you up with a specialist.
-                        </p>
-                        </div>
-                    </div>
-
-<!----------------------------------------------------
-this is the eighth of the eight toggling menu sections.
------------------------------------------------------>
-                    
-                    <div id="section-eight" class="content-section">
-
-                    <h2 id="heading-eight" class="heading last">Contact</h2> 
-                    	<div class="content">
-                    	<h3>Call us</h3>
-                    	<p>555-5555</p>
-                        <h3>Email us</h3>
-                        <p><a href="">hello@nicevillelibrary.org</a></p>
-                        <h3>In person</h3>
-                  		<p>
-                        143 Lucky Hi-way<br />
-                        Niceville, USA</p>
-                        <h3>Around the Web</h3>
-                        
-                                             
-                        <h3><a href="#"><img src="images/facebook.png" alt="facebook"></a>
-                            <a href="#"><img src="images/twitter.png" alt="twitter"></a>
-                            <a href="#"><img src="images/flickr.png" alt="flickr"></a>
-                            <a href="#"><img src="images/youtube.png" alt="youtube"></a> 
-                        </h3> 
-                        </div>
-                    </div>
-                 
 
 
 <!----------------------------------------------------
@@ -389,28 +277,19 @@ Locations section, hidden on page load
 <div id="locations-page">
     <h2 id="locations" class="heading">Hours & Location</h2>
     <div class="content">
-       <h3>Niceville Library</h3>
-        <p>143 Lucky Hi-way<br />
-         Niceville, USA</p>
+        <h3>MCNY Library</a></h3>
+            <p>431 Canal Street<br />
+            12th Floor <br />
+            New York, NY 10013</p>
          
-         <p>  M-F: 10-9<br />
-         S&S: 12-9</p>
+         <p>  M-F: 9AM-10PM<br />
+         S: 8AM-7PM</p>
          
-         <p>555-5555<br />
-         hello@nicevillelibrary.org</p>
+         <p>212-343-1234 ext. 2001<br />
+         library@mcny.edu</p>
        
          
-        	<div class="bigmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=14&size=512x512&maptype=roadmap
-&markers=color:red|label:A|40.702147,-74.015794&markers=color:red|label:B|40.711614,-74.012318
-&markers=color:red|color:red|label:C|40.718217,-73.998284&sensor=false">
-			</div>
-            <div class="smallmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=14&size=260x260&maptype=roadmap
-&markers=color:red|label:A|40.702147,-74.015794&markers=color:red|label:B|40.711614,-74.012318
-&markers=color:red|color:red|label:C|40.718217,-73.998284&sensor=false">
-			</div>
-
+        	
         </div>  
     </div>
 
@@ -441,12 +320,11 @@ footer
 ----------------------------------------------------->    
     	<div class="sixteen columns footer">
             <div class="footer-links">
-       <strong>Open today: 10-9      <br />555-5555<br />hello@nicevillelibrary.org     </strong>
+       <strong>MCNY Library   <br />212-3434-1234 ext. 2001<br />library@mcny.edu     </strong>
             <div class="footer-logo">
-        	 	 <a href="#"><img src="images/facebook.png" width="30px" alt="facebook"></a>
-                            <a href="#"><img src="images/twitter.png" width="30px" alt="twitter"></a>
-                            <a href="#"><img src="images/flickr.png" width="30px" alt="flickr"></a>
-                            <a href="#"><img src="images/youtube.png" width="30px" alt="youtube"></a> 
+        	 	 <a href="https://www.facebook.com/pages/MCNY-Library/128898847185984"><img src="images/facebook.png" width="30px" alt="facebook"></a>
+                            <a href="https://twitter.com/MCNYLibrary"><img src="images/twitter.png" width="30px" alt="twitter"></a>
+                                                      
                         
  </div>
  </div>

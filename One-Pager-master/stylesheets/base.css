@@ -32,7 +32,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		font-family:Arial, Helvetica, sans-serif; }
+		font-family: Verdana, Geneva, sans-serif; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
@@ -53,8 +53,8 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: url(texture3.png) #C0C0C0;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		background: url(texture3.png) #CCCCCF;
+		font: 14px/21px "Verdana", "Verdana", Verdana, Geneva, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -66,8 +66,8 @@
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
-		color: #181818;
-		font-family: Arial, Helvetica, sans-serif;;
+		color: #000000;
+		font-family: Verdana, Geneva, sans-serif;;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
@@ -170,7 +170,7 @@
 	  margin-bottom: 20px;
 	  line-height: normal;
 	  padding: 8px 10px;
-	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+	  font-family: "Verdana", "Verdana", Verdana, Geneva, sans-serif; }
 
 	.button:hover,
 	button:hover,
@@ -367,7 +367,7 @@ img.titles{margin:0 6px 6px 0;}
 img.events{width:100%;margin:0 20px 0 34px;}
 
 h1.logotype{
-	color:#FFFCEE;
+	color:#000000;
 	font-weight:bold;
 	font-size:5em;
 	margin-top:26px;
