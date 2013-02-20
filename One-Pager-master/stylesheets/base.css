@@ -109,7 +109,10 @@
 /* #Links
 ================================================== */
 	a, a:visited { color: #333; text-decoration: none; outline: 0; }
-	a:hover, a:focus { color: #000; }
+	a:hover, a:focus {
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+}
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -413,9 +416,11 @@ h3{font-size:1.6em;}
 	
 	
 .heading:hover {
-background-image: -webkit-linear-gradient(#514E49,#5B5956); 
-background-image: -o-linear-gradient(#514E49,#5B5956);
-background-image: -moz-linear-gradient(#514E49,#5B5956);}	
+	background-image: -webkit-linear-gradient(#514E49,#5B5956);
+	background-image: -o-linear-gradient(#514E49,#5B5956);
+	background-image: -moz-linear-gradient(#514E49,#5B5956);
+	color: #C00;
+}	
 
 h2.heading {padding-left: 10px;}
 
@@ -434,7 +439,10 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	padding:10px;
 	}
 	
-.content a {color:#E74E39;}
+.content a {
+	color:#33F;
+	font-style: italic;
+}
 	
 
 .footer{
