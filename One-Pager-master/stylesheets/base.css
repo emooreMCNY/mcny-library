@@ -505,9 +505,9 @@ input[value="search"]{
 	}
 	
 .flexslider img{
-			position:relative;
-			bottom:4px;
-			right:4px;
+	position:center;
+	bottom:4px;
+	right:4px;
 			
 		}
 		
