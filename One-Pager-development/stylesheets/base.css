@@ -82,7 +82,9 @@
 	-o-transition-property: color;
 	-o-transition-duration: 0.1s;
 	-o-transition-timing-function:ease-in;}
-	h2:hover {color:#fff;}
+	h2:hover {
+	color:#C03;
+}
 	h3 { font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-weight: bold; }
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
@@ -110,7 +112,9 @@
 /* #Links
 ================================================== */
 	a, a:visited { color: #333; text-decoration: none; outline: 0; }
-	a:hover, a:focus { color: #000; }
+	a:hover, a:focus {
+	color: #C03;
+}
 	p a, p a:visited { line-height: inherit; }
 
 
