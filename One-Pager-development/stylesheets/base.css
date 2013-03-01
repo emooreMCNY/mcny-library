@@ -55,7 +55,7 @@
 ================================================== */
 	body {
 		background: url(texture3.png) #000000;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;
+		font: 12px/18px "HelveticaNeue", "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
