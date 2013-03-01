@@ -372,7 +372,7 @@ img.titles{margin:0 6px 6px 0;}
 img.events{width:100%;margin:0 20px 0 34px;}
 
 h1.logotype{
-	color:#FFFCEE;
+	color:#000;
 	font-weight:bold;
 	font-size:5em;
 	margin-top:26px;
@@ -477,7 +477,10 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 .footer-logo{margin-right:10px;}
 .footer-links{margin-left:10px;}
 
-#header-links a {color:#FFFCEE;font-size: 20px;}
+#header-links a {
+	color:#000;
+	font-size: 20px;
+}
 
 
 .ipad-stuff{display:none;}
