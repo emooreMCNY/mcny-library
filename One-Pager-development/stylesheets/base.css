@@ -53,13 +53,11 @@
 /* #Basic Styles
 ================================================== */
 	body {
-<<<<<<< HEAD
+
 		background: url(texture3.png) #000000;
-		font: 12px/18px "HelveticaNeue", "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;
-=======
-		background: url(texture3.png) #76A2AD;
+				
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
->>>>>>> parent of 364e53d... Font Family
+
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
