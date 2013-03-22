@@ -56,7 +56,7 @@
 
 		background: url(texture3.png) #000000;
 				
-		font: 14px/21px  "jaf-facitweb" "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
