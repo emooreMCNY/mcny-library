@@ -30,11 +30,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-<<<<<<< HEAD
 		font: inherit;
-=======
-		/* font: inherit; */
->>>>>>> parent of 5353b7f... Font Changes
 		vertical-align: baseline;
 		font-family:Arial, Helvetica, sans-serif; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -60,7 +56,7 @@
 
 		background: url(texture3.png) #000000;
 				
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 14px/21px,"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -76,15 +72,14 @@
 		color: #181818;
 		font-family: Arial, Helvetica, sans-serif;;
 		font-weight: normal; }
-<<<<<<< HEAD
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-weight: bold; }
+
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
 	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-weight: bold; 
-=======
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-family: "jaf-facitweb"; font-weight: inherit; }
-	h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
-	h2 { font-family: "jaf-facitweb"; font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-weight: bold; 
->>>>>>> parent of 5353b7f... Font Changes
 	-webkit-transition-property: color;
 	-webkit-transition-duration: 0.1s;
 	-webkit-transition-timing-function:ease-in;
