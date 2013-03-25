@@ -30,9 +30,13 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit; 
+<<<<<<< HEAD
+		font: inherit;
+=======
+		/* font: inherit; */
+>>>>>>> parent of 5353b7f... Font Changes
 		vertical-align: baseline;
-		font-family: "jaf-facitweb", Arial, Helvetica, sans-serif; }
+		font-family:Arial, Helvetica, sans-serif; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
@@ -57,7 +61,6 @@
 		background: url(texture3.png) #000000;
 				
 		font: 14px/21px "jaf-facitweb","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-family: "jaf-facitweb";
 
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -65,8 +68,7 @@
  }
 
 
- p{font-family: "jaf-facitweb";
-	 font-size: 1.2em;}
+ p{font-size: 1.2em;}
 
 /* #Typography
 ================================================== */
@@ -74,9 +76,15 @@
 		color: #181818;
 		font-family: "jaf-facitweb", Arial, Helvetica, sans-serif;;
 		font-weight: normal; }
+<<<<<<< HEAD
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-weight: bold; 
+=======
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-family: "jaf-facitweb"; font-weight: inherit; }
-	h1 { font-family: "jaf-facitweb"; font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
 	h2 { font-family: "jaf-facitweb"; font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-weight: bold; 
+>>>>>>> parent of 5353b7f... Font Changes
 	-webkit-transition-property: color;
 	-webkit-transition-duration: 0.1s;
 	-webkit-transition-timing-function:ease-in;
@@ -89,10 +97,10 @@
 	h2:hover {
 	color:#FFF;
 }
-	h3 { font-family: "jaf-facitweb"; font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-weight: bold; }
-	h4 {font-family: "jaf-facitweb";  font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-	h5 {font-family: "jaf-facitweb"; font-size: 17px; line-height: 24px; }
-	h6 { font-family: "jaf-facitweb"; font-size: 14px; line-height: 21px; }
+	h3 { font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-weight: bold; }
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; }
@@ -100,7 +108,7 @@
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
 	em { font-style: italic; }
-	strong { font-family: "jaf-facitweb"; font-weight: bold;}
+	strong { font-weight: bold;}
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
@@ -324,7 +332,7 @@
 		-moz-border-radius: 2px;
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
-		font: 13px "jaf-facitweb", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
 		width: 210px;
@@ -477,7 +485,6 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	
 	
 .footer a{
-	font-family: "jaf-facitweb";
 	color:#F00;
 }
 	
@@ -486,7 +493,6 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 .footer-links{margin-left:10px;}
 
 #header-links a {
-	font-family: "jaf-facitweb";
 	color:#FFF;
 	font-size: 20px;
 }
