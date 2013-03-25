@@ -60,7 +60,7 @@
 
 		background: url(texture3.png) #000000;
 				
-		font: 14px/21px "jaf-facitweb","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -74,7 +74,7 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family: "jaf-facitweb", Arial, Helvetica, sans-serif;;
+		font-family: Arial, Helvetica, sans-serif;;
 		font-weight: normal; }
 <<<<<<< HEAD
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -389,7 +389,6 @@ img.events{width:100%;margin:0 20px 0 34px;}
 
 h1.logotype{
 	color:#FFF;
-	font-family: "jaf-facitweb";
 	font-weight:bold;
 	font-size:5em;
 	margin-top:26px;
@@ -505,7 +504,6 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 #searchbox{	
 
 	border:0px solid #e3e3e3;
-	font-family: "jaf-facitweb";
 	font-size:1.7em;
 	font-style:italic;
 	color:#E74E39;
