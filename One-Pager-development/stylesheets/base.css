@@ -52,16 +52,13 @@
 
 /* #Basic Styles
 ================================================== */
-	body {
-
-		background: url(texture3.png) #000000;
-				
-		font: 14px/21px;
-		font-family: "HelveticaNeue", "Helvetica Neue",  Arial, Helvetica, sans-serif;
-
-		color: #444;
-		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-		-webkit-text-size-adjust: 100%;
+body {
+background: url(texture3.png) #000000;
+font: 14px/21px;
+font-family: "HelveticaNeue", "Helvetica Neue",  Arial, Helvetica, sans-serif;
+color: #444;
+-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+-webkit-text-size-adjust: 100%;
  }
 
 
