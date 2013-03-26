@@ -56,7 +56,8 @@
 
 		background: url(texture3.png) #000000;
 				
-		font: 14px/21px,"HelveticaNeue", "Helvetica Neue",  Arial, Helvetica, sans-serif;
+		font: 14px/21px;
+		font-family: "HelveticaNeue", "Helvetica Neue",  Arial, Helvetica, sans-serif;
 
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -110,7 +111,7 @@
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
-	p, p a { font-family:"jaf-facitweb"; margin: 0 0 20px 0; }
+	p, p a {  margin: 0 0 20px 0; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
