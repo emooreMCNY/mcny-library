@@ -69,9 +69,9 @@
 		color: #181818;
 		font-family: "jaf-facitweb", Arial, Helvetica, sans-serif;;
 		font-weight: normal; }
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: "jaf-facitweb"; font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-family:"jaf-facitweb";font-weight: bold; 
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49; font-family:"jaf-facitweb";font-weight: bold; 
 	-webkit-transition-property: color;
 	-webkit-transition-duration: 0.1s;
 	-webkit-transition-timing-function:ease-in;
@@ -81,19 +81,20 @@
 	-o-transition-property: color;
 	-o-transition-duration: 0.1s;
 	-o-transition-timing-function:ease-in;}
+	
 	h2:hover {color:#fff;}
-	h3 { font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-weight: bold; }
+	h3 { font-family:"jaf-facitweb";font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-weight: bold; }
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
-	p { margin: 0 0 20px 0; }
+	p, p a { font-family:"jaf-facitweb"; margin: 0 0 20px 0; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
-	em { font-style: italic; }
-	strong { font-weight: bold;}
+	em { font-family:"jaf-facitweb";font-style: italic; }
+	strong { font-family:"jaf-facitweb"; font-weight: bold;}
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
