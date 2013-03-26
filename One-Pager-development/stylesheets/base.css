@@ -32,7 +32,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+		font-family: Arial, Helvetica, sans-serif; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
@@ -53,11 +53,8 @@
 /* #Basic Styles
 ================================================== */
 	body {
-
 		background: url(texture3.png) #000000;
-				
-		font: 14px/21px,"HelveticaNeue", "Helvetica Neue",  Arial, Helvetica, sans-serif;
-
+		font: 14px/21px "jaf-facitweb","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -70,16 +67,11 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family: "jaf-facitweb", Arial, Helvetica, sans-serif;;
 		font-weight: normal; }
-
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-weight: bold; }
-
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-weight: bold; 
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-family:"jaf-facitweb";font-weight: bold; 
 	-webkit-transition-property: color;
 	-webkit-transition-duration: 0.1s;
 	-webkit-transition-timing-function:ease-in;
@@ -89,9 +81,7 @@
 	-o-transition-property: color;
 	-o-transition-duration: 0.1s;
 	-o-transition-timing-function:ease-in;}
-	h2:hover {
-	color:#FFF;
-}
+	h2:hover {color:#fff;}
 	h3 { font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-weight: bold; }
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
@@ -118,14 +108,8 @@
 
 /* #Links
 ================================================== */
-	a, a:visited {
-	color: #000;
-	text-decoration: none;
-	outline: 0;
-}
-	a:hover, a:focus {
-	color: #FFF;
-}
+	a, a:visited {color: #000;text-decoration: none;	outline: 0;}
+	a:hover, a:focus {color: #FFF;}
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -383,6 +367,7 @@ img.titles{margin:0 6px 6px 0;}
 img.events{width:100%;margin:0 20px 0 34px;}
 
 h1.logotype{
+	font-family: "jaf-facitweb";
 	color:#FFF;
 	font-weight:bold;
 	font-size:5em;
@@ -416,7 +401,7 @@ h3{font-size:1.6em;}
 	}
 	
 
-.heading {
+.heading a{
 	-webkit-transition-property: background-color;
 	-webkit-transition-duration: 0.1s;
 	-webkit-transition-timing-function:ease-in;
@@ -471,33 +456,31 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	-moz-border-bottom-left-radius:  0px;
 	-webkit-border-bottom-right-radius: 0px;
 	-webkit-border-bottom-left-radius:  0px;
+	
+	
 	color:#FFF;
 	font-weight: bold;
 	font-size: 1.4em;
 	line-height: 1.3em;	
+	
+	
 	}
 	
+	.footer a, .footer-links {font-family: "jaf-facitweb";}
 	
-.footer a{
-	color:#F00;
-}
+	.footer a{color:#F00;}
 	
 .footer-logo,  #header-links{float:right;}
 .footer-logo{margin-right:10px;}
 .footer-links{margin-left:10px;}
 
-#header-links a {
-	color:#FFF;
-	font-size: 20px;
-}
+#header-links a {color:#FFF;font-size: 20px;font-family: "jaf-facitweb";}
 
-#header-links a:hover {
-	color:#F00;
-}
+
 .ipad-stuff{display:none;}
 
 #searchbox{	
-
+font-family: "jaf-facitweb";
 	border:0px solid #e3e3e3;
 	font-size:1.7em;
 	font-style:italic;
