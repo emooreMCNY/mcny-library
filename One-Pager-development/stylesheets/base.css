@@ -54,8 +54,7 @@
 ================================================== */
 body {
 background: url(texture3.png) #000000;
-font: 14px/21px;
-font-family: "HelveticaNeue", "Helvetica Neue",  Arial, Helvetica, sans-serif;
+font: 14px/21px "jaf-facitweb"  "HelveticaNeue", "Helvetica Neue",  Arial, Helvetica, sans-serif;
 color: #444;
 -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 -webkit-text-size-adjust: 100%;
@@ -115,14 +114,8 @@ h3 {font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-w
 
 /* #Links
 ================================================== */
-	a, a:visited {
-	color: #000;
-	text-decoration: none;
-	outline: 0;
-}
-	a:hover, a:focus {
-	color: #FFF;
-}
+	a, a:visited {color: #000; text-decoration: none; outline: 0; }
+	a:hover, a:focus {color: #FFF;}
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -475,8 +468,9 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	}
 	
 	
-.footer a{
-	color:#F00;
+	
+	
+.footer a{color:#F00;
 }
 	
 .footer-logo,  #header-links{float:right;}
