@@ -32,7 +32,11 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+<<<<<<< HEAD
 		font-family:Arial, Helvetica, sans-serif; }
+=======
+		font-family: Helvetica, Arial, sans-serif; }
+>>>>>>> Development
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
@@ -52,6 +56,7 @@
 
 /* #Basic Styles
 ================================================== */
+<<<<<<< HEAD
 	body {
 		background: url(texture3.png) #76A2AD;
 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -83,17 +88,65 @@
 	-o-transition-timing-function:ease-in;}
 	h2:hover {color:#fff;}
 	h3 { font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-weight: bold; }
+=======
+body {
+background: url(texture3.png) #000000;
+font: 14px/21px;
+font-family: "HelveticaNeue", "Helvetica Neue",  Arial, Helvetica, sans-serif;
+color: #444;
+-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+-webkit-text-size-adjust: 100%;
+ }
+
+
+  p{font-size: 1.2em;} 
+
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+color: #181818;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: normal; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 46px; line-height: 50px; margin-bottom: 23px;text-shadow: -2px 2px 3px #514E49;}
+h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; color:#514E49;font-weight: bold;
+-webkit-transition-property: color;
+-webkit-transition-duration: 0.1s;
+-webkit-transition-timing-function:ease-in;
+-moz-transition-property: color;
+-moz-transition-duration: 0.1s;
+-moz-transition-timing-function:ease-in;
+-o-transition-property: color;
+-o-transition-duration: 0.1s;
+-o-transition-timing-function:ease-in;}
+h2:hover {color:#fff;}
+h3 {font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-weight: bold; }
+	h2:hover {
+	color:#FFF;
+}
+	h3 { font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-weight: bold; }
+
+>>>>>>> Development
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
+<<<<<<< HEAD
 	p { margin: 0 0 20px 0; }
+=======
+	p, p a {  margin: 0 0 20px 0; }
+>>>>>>> Development
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
 	em { font-style: italic; }
+<<<<<<< HEAD
 	strong { font-weight: bold;}
+=======
+	strong {  font-weight: bold;}
+>>>>>>> Development
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
@@ -108,8 +161,19 @@
 
 /* #Links
 ================================================== */
+<<<<<<< HEAD
 	a, a:visited { color: #333; text-decoration: none; outline: 0; }
 	a:hover, a:focus { color: #000; }
+=======
+	a, a:visited {
+	color: #000;
+	text-decoration: none;
+	outline: 0;
+}
+	a:hover, a:focus {
+	color: #FFF;
+}
+>>>>>>> Development
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -367,7 +431,11 @@ img.titles{margin:0 6px 6px 0;}
 img.events{width:100%;margin:0 20px 0 34px;}
 
 h1.logotype{
+<<<<<<< HEAD
 	color:#FFFCEE;
+=======
+	color:#FFF;
+>>>>>>> Development
 	font-weight:bold;
 	font-size:5em;
 	margin-top:26px;
@@ -438,7 +506,11 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	
 
 .footer{
+<<<<<<< HEAD
 	background-color:#514E49;
+=======
+	background-color:#000;
+>>>>>>> Development
 	margin-top:15px;
 	width:100%;
 	padding:10px 0 10px 0;
@@ -449,6 +521,7 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	-webkit-box-shadow: 0px 0px 5px rgba(88, 83, 74, .7);
 	box-shadow: 0px 0px 5px rgba(88, 83, 74, .7);
 	-moz-box-shadow: 0px 0px 5px rgba(88, 83, 74, .7);
+<<<<<<< HEAD
 	border-bottom-right-radius: 0px;  
 	border-bottom-left-radius:  0px; 
 	-moz-border-bottom-right-radius: 0px;  
@@ -467,14 +540,43 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	
 	
 .footer a{color:#FFFCEE;}
+=======
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius:  0px;
+	-moz-border-bottom-right-radius: 0px;
+	-moz-border-bottom-left-radius:  0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius:  0px;
+	color:#FFF;
+	font-weight: bold;
+	font-size: 1.4em;
+	line-height: 1.3em;	
+	}
+	
+	
+.footer a{
+	color:#F00;
+}
+>>>>>>> Development
 	
 .footer-logo,  #header-links{float:right;}
 .footer-logo{margin-right:10px;}
 .footer-links{margin-left:10px;}
 
+<<<<<<< HEAD
 #header-links a {color:#FFFCEE;font-size: 20px;}
 
 
+=======
+#header-links a {
+	color:#FFF;
+	font-size: 20px;
+}
+
+#header-links a:hover {
+	color:#F00;
+}
+>>>>>>> Development
 .ipad-stuff{display:none;}
 
 #searchbox{	
@@ -506,4 +608,8 @@ input[value="search"]{
 	background: none;
 	postion:relative;
 	top:4px;
+<<<<<<< HEAD
 	}
+=======
+	}
+>>>>>>> Development
