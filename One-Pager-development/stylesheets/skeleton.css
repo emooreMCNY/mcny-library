@@ -225,6 +225,7 @@
         .container .sixteen.columns,
         .container .one-third.column,
         .container .two-thirds.column { width: 420px; }
+		#MCNY_header_logo {display:none;}
     }
 
 
