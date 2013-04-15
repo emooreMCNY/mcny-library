@@ -69,8 +69,8 @@
     .container .offset-by-fourteen              { padding-left: 840px; }
     .container .offset-by-fifteen               { padding-left: 900px; }
 
-	#hours-locations-account-mobile{display:none;}
-
+	#hours-locations-account-mobile, #MCNY_footer_logo{display:none;}
+	
 /* #Tablet (Portrait)
 ================================================== */
 
@@ -176,7 +176,7 @@
         .container .offset-by-fifteen { padding-left: 0; }
 		
 		h1.logotype {font-size:4em;}
-		#section-seven { display:none;}
+		#MCNY_header_logo {display:none;}
 	
 		#logo img, #header-links, .bigmap, .flexslider{display:none;}
 		#logo h1{font-size:1.8em;margin-bottom:0;} 
@@ -185,8 +185,10 @@
 		input[id="searchbox"]{margin-top:0;}
 		.content{padding:10px;}
 		img.events{margin:0 0 10px 24px;width:22%;float:left;}
-		.smallmap, .ipad-bug, #hours-locations-account-mobile{display:block;}	
+		.smallmap, .ipad-bug, #hours-locations-account-mobile,#MCNY_footer_logo{display:block;}	
 		.ipad-bug{clear:both;margin-bottom:12px;"}
+		
+		
 			
 		
 		
@@ -223,6 +225,7 @@
         .container .sixteen.columns,
         .container .one-third.column,
         .container .two-thirds.column { width: 420px; }
+		#MCNY_header_logo {display:none;}
     }
 
 

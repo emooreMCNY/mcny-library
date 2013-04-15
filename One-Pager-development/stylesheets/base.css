@@ -430,6 +430,27 @@ img.bookshelf{
 img.titles{margin:0 6px 6px 0;}
 img.events{width:100%;margin:0 20px 0 34px;}
 
+img#MCNY_header_logo {
+	width:92px;
+	height:80px;
+	margin:0 10px 0 0;
+	float:left;
+	box-shadow: -2px 2px 3px rgb(81, 78, 73);
+	-moz-box-shadow: -2px 2px 3px rgb(81, 78, 73);
+	-webkit-box-shadow: -2px 2px 3px rgb(81, 78, 73);
+}
+
+img#MCNY_footer_logo {
+	width:69px;
+	height: 60px;
+	margin:0 10px 0 0;
+	float:left;
+	box-shadow: -2px 2px 3px rgb(81, 78, 73);
+	-moz-box-shadow: -2px 2px 3px rgb(81, 78, 73);
+	-webkit-box-shadow: -2px 2px 3px rgb(81, 78, 73);
+}
+
+
 h1.logotype{
 <<<<<<< HEAD
 	color:#FFFCEE;
