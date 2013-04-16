@@ -10,7 +10,7 @@ Updates, week ending 04/12/13:
 *Moved MCNY logo from header to footer within Mobile view.  
 *Added link to A-Z electronic journal list within Research content section.  
 *Changed all active library email links from HTML to Javascript, using the HiveLogic anti-spam Enkoder.  
-*Staged new book images/links for Just Arrived content section.  
+*Added new book images/links for Just Arrived content section.  
 
 
 **Coder**:  
