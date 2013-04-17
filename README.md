@@ -13,7 +13,7 @@ Updates, week ending 04/12/13:
 * Added new book images/links for Just Arrived content section.  
 
 
-If you have questions, please contact me at [emoore@mcny.edu.](mailto:emoore@mcny.edu)
-Emma Moore
-Emerging Technologies Librarian
-MCNY
+If you have questions, please contact me at [emoore@mcny.edu.](mailto:emoore@mcny.edu)  
+Emma Moore  
+Emerging Technologies Librarian  
+MCNY  
