@@ -1,8 +1,22 @@
-Repository description:
-======================
+#Repository description:#
 Source code, stylesheets, scripts, and images for the homepage of the Library at the Metropolitan College of New York.  
 Adapted from the One-Pager template, created by Influx/Aaron Schmidt/Nate Hill; altered to suited the needs of an 
 urban academic library.
+
+##Scripts Used:##
+* HTML
+* CSS
+* Javascript/JQuery
+
+##External Dependencies:##
+* [Summon Search]: http://mcnylibrary.summon.serialssolutions.com
+* [EZProxy]: https://ezproxy.mcny.edu/login
+* [360 Link]: http://wh7vl3dc8w.search.serialssolutions.com
+* [Google Maps API]: https://developers.google.com/maps/documentation/staticmaps/
+* [Open Library Foundation]: http://openlibrary.org/ 
+* [LibGuides]: http://libguides.mcny.edu/
+* [Library H3lp]: https://us.libraryh3lp.com
+
 
 Updates, week ending 04/12/13:
 -----------------------------
