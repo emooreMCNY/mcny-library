@@ -630,7 +630,19 @@ var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
 while(x=eval(x));
 //-->
 //]]>
-</script>   </strong>
+</script>
+<div class="needs-js">Chat requires JavaScript.</div>
+<div class="libraryh3lp" jid="mcny-library-website@chat.libraryh3lp.com" style="display: none;">
+  <a href="#" 
+   onclick="window.open('http://libraryh3lp.com/mobile/mcny-library-website@chat.libraryh3lp.com ?skin=9999',
+   'chat', 'resizable=1,width=320,height=200'); return false;">
+    <img src="images/chat-bug.jpg">
+  </a>
+</div>
+
+<div class="libraryh3lp" style="display: none;">
+  <p>Chat is not availble; please email.</p>
+</div>   </strong>
             <div class="footer-logo">
             <a href="http://www.mcny.edu/"><img id="MCNY_footer_logo" src="images/MCNY_logo.jpg" alt="MCNY Logo"></a>
         	 	 <a href="https://www.facebook.com/pages/MCNY-Library/128898847185984"><img src="images/facebook.png" width="30px" alt="facebook"></a>
@@ -662,5 +674,14 @@ while(x=eval(x));
 
 <!-- End Document
 ================================================== -->
+<!-- Place this script as near to the end of your BODY as possible. -->
+<script 
+ type="text/javascript"> 
+  (function() {
+    var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
+    x.src = (document.location.protocol === "https:" ? "https://" : "http://") + "libraryh3lp.com/js/libraryh3lp.js?multi,poll";
+    var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
+  })();
+</script>
 </body>
 </html>
