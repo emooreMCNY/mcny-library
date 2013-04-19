@@ -17,6 +17,13 @@ urban academic library.
 * [LibGuides] (http://libguides.mcny.edu/)
 * [Library H3lp] (https://us.libraryh3lp.com)
 
+Updates, week ending 04/19/13:
+-----------------------------
+* Added text reference number to contact section.
+* Added alt and title information to Just Arrived books.
+* Added Library H3lp widget to non-mobile Header Links.
+* Added Library H3lp mobile widget to mobile footer.
+* Moved MCNY Logo within footer.
 
 Updates, week ending 04/12/13:
 -----------------------------
