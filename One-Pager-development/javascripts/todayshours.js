@@ -17,8 +17,7 @@
 // EXAMPLE:
 //
 // var open=["X","9:00am","9:00am","9:00am","9:00am","9:00am","1:30pm"];
-
-	var open=["X","9:00am","9:00am","9:00am","9:00am","9:00am","8:00am"]; // Edit this line 
+	var open2=["X","9:00am","9:00am","9:00am","9:00am","9:00am","8:00am"]; // Edit this line 
 
 // Enter the time your library closes, starting with Sunday. If your library is 
 // closed, enter "X" for the time.
@@ -31,7 +30,7 @@
 	var currentTime = new Date()
 	var day = currentTime.getDay()
 
-	var openTime = open[day];
+	var openTime = open2[day];
 	var closeTime = close[day];
 	createHours(openTime,closeTime);
 		
