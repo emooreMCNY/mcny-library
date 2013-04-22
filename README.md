@@ -13,7 +13,7 @@ urban academic library.
 * [EZProxy] (https://ezproxy.mcny.edu/login)
 * [360 Link] (http://wh7vl3dc8w.search.serialssolutions.com)
 * [Google Maps API] (https://developers.google.com/maps/documentation/staticmaps/)
-* [Open Library Foundation] (http://openlibrary.org/) 
+* [Open Library] (http://openlibrary.org/) 
 * [LibGuides] (http://libguides.mcny.edu/)
 * [Library H3lp] (https://us.libraryh3lp.com)
 
