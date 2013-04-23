@@ -405,7 +405,7 @@ img#MCNY_footer_logo {
 	width:69px;
 	height: 60px;
 	margin:0 10px 0 0;
-	float:left;
+	float:right;
 	box-shadow: -2px 2px 3px rgb(81, 78, 73);
 	-moz-box-shadow: -2px 2px 3px rgb(81, 78, 73);
 	-webkit-box-shadow: -2px 2px 3px rgb(81, 78, 73);
@@ -492,7 +492,7 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	margin-top:15px;
 	width:100%;
 	padding:10px 0 10px 0;
-	height:103px;
+	height:120px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -565,4 +565,11 @@ input[value="search"]{
 	postion:relative;
 	top:4px;
 	}
+
+
+
+ 
+ .libraryh3lp {
+	 color:#F00
+ }
 
