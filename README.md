@@ -3,6 +3,8 @@ Source code, stylesheets, scripts, and images for the homepage of the Library at
 Adapted from the One-Pager template, created by Influx/Aaron Schmidt/Nate Hill; altered to suited the needs of an 
 urban academic library.
 
+**Version**:1.01
+
 ##Scripts Used:##
 * HTML
 * CSS
