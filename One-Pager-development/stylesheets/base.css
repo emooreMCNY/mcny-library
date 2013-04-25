@@ -390,9 +390,9 @@ img#MCNY_header_logo {
 }
 
 img#MCNY_footer_logo {
-	width:69px;
-	height: 60px;
-	margin:0 10px 0 0;
+	width: 88px;
+	height: 32px;
+	margin:0 0 0 0;
 	float:right;
 	box-shadow: -2px 2px 3px rgb(81, 78, 73);
 	-moz-box-shadow: -2px 2px 3px rgb(81, 78, 73);
