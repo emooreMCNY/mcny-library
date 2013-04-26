@@ -501,8 +501,9 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 }
 	
 .footer-logo,  #header-links{float:right;}
-.footer-logo{margin-right:10px;}
-.footer-links{margin-left:10px;}
+.footer-logo{margin-right:10px;
+padding-top:0px;}
+.footer-links {margin-left:10px;}
 
 
 
