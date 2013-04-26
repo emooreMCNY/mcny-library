@@ -1,3 +1,9 @@
+Updates, week ending 04/26/13:
+-----------------------------
+* Switched to May 2013 exhibit content: "Great Ideas At The MCNY Library"; hid Graphic Novel and Print Periodical exhibits.
+* Switched to smaller mobile-friendly MCNY image; expanded mobile footer.
+* Aesthetic punctuation/capitalization/text fixes.
+
 Updates, week ending 04/19/13:
 -----------------------------
 * Added text reference number to contact section.
