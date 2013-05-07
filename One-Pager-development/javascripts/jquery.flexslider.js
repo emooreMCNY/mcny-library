@@ -271,12 +271,7 @@
           startT,
           scrolling = false;
               
-        slider.each(function() {
-          if ('ontouchstart' in document.documentElement) {
-            this.addEventListener('touchstart', onTouchStart, false);
-          }
-        });
-        
+                
         function onTouchStart(e) {
           if (slider.animating) {
             e.preventDefault();
@@ -321,6 +316,11 @@
             }
           }
           
+		  slider.each(function() {
+          if ('ontouchstart' in document.documentElement) {
+            this.addEventListener('touchstart', onTouchStart, false);
+          }
+        });
           //Finish the touch by undoing the touch session
           this.removeEventListener('touchmove', onTouchMove, false);
           this.removeEventListener('touchend', onTouchEnd, false);
