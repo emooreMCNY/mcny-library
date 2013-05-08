@@ -1,10 +1,17 @@
-Updates, week ending 04/26/13:
+Version 1.04, week ending 05/03/13:
+-----------------------------
+* Added link to EasyBib trial in Research section.
+* Corrected URLS for Electronic Journal List and Business Insights Essentials in Research section.
+* Changed Today's Hours from Intersession to Summer Semester.
+* Fixed bug in JQueryFlexslider that was breaking menus in some editions of Firefox
+
+Version 1.03, week ending 04/26/13:
 -----------------------------
 * Switched to May 2013 exhibit content: "Great Ideas At The MCNY Library"; hid Graphic Novel and Print Periodical exhibits.
 * Switched to smaller mobile-friendly MCNY image; expanded mobile footer.
 * Aesthetic punctuation/capitalization/text fixes.
 
-Updates, week ending 04/19/13:
+Version 1.02, week ending 04/19/13:
 -----------------------------
 * Added text reference number to contact section.
 * Added alt and title information to Just Arrived books.
@@ -12,7 +19,7 @@ Updates, week ending 04/19/13:
 * Added Library H3lp mobile widget to mobile footer.
 * Moved MCNY Logo within footer.
 
-Updates, week ending 04/12/13:
+Version 1.01, week ending 04/12/13:
 -----------------------------
 * Fixed CSS bug that was hiding Research content section within Mobile view.  
 * Moved MCNY logo from header to footer within Mobile view.  
