@@ -1,3 +1,10 @@
+Version 1.05, week ending 05/10/13:
+-----------------------------
+* New Just Arrived and Spotlight books for May 2013.
+* "Request A Book" email link under New Acquisitions/Just Arrived.
+* Proxied EasyBib link.
+* Changed text/email subject line within For Students section: "Library Instruction" --> "Library Basics".
+
 Version 1.04, week ending 05/03/13:
 -----------------------------
 * Added link to EasyBib trial in Research section.
