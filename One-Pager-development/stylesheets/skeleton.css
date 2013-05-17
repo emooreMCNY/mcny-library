@@ -176,8 +176,7 @@
         .container .offset-by-fifteen { padding-left: 0; }
 		
 		h1.logotype {font-size:4em;}
-		#MCNY_header_logo {display:none;}
-	
+		#MCNY_header_logo, .webonly {display:none;}
 		#logo img, #header-links, .bigmap, .flexslider{display:none;}
 		#logo h1{font-size:1.8em;margin-bottom:0;} 
 		h2.heading, input[value="search"]{font-size:1.4em;}
