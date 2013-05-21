@@ -1,3 +1,11 @@
+Version 1.1, week ending 05/17/13:
+-----------------------------
+* Added New Book RSS feed.
+* Streamlined New Acquisitions area in mobile view.
+* Moved "Request A Book" within mobile view.
+* Removed Faculty Research Consultation email link, replaced with Equipment Request email link.
+
+
 Version 1.05, week ending 05/10/13:
 -----------------------------
 * New Just Arrived and Spotlight books for May 2013.
