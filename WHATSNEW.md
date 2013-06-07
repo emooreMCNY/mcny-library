@@ -1,3 +1,9 @@
+Version 1.11, week ending 05/17/13:
+-----------------------------
+* Added new exhibit for June 2013.
+* Updated staff directory.
+
+
 Version 1.1, week ending 05/17/13:
 -----------------------------
 * Added New Book RSS feed.
