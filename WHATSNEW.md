@@ -1,4 +1,13 @@
-Version 1.11, week ending 05/17/13:
+Version 1.12, week ending 06/21/13:
+-----------------------------
+* Revised heading and text for section 3, now named "Purpose Handbooks & More".
+* Hid "Immediate Help" paragraph within mobile view, because of desktop vs. mobile widget display issues.
+* Revised Faculty and Student section headings.
+* Updated "Just Arrived" books.
+* Replaced Side Image 1 with Summer picture.
+
+
+Version 1.11, week ending 06/07/13:
 -----------------------------
 * Added new exhibit for June 2013.
 * Updated staff directory.
