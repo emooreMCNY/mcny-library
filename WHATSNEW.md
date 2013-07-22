@@ -1,7 +1,15 @@
+
+Version 1.2, week ending 07/19/13:
+-----------------------------
+* Restored Graphic Novel exhibit.
+* Updated "Just Arrived" books.
+* Added new "Research Guides" link to Research section; reordered links in general.
+
+
 Version 1.13, week ending 07/06/13:
 -----------------------------
-*Added new exhibit for July 2013.
-*Deproxied eBrary URL.
+* Added new exhibit for July 2013.
+* Deproxied eBrary URL.
 
 
 Version 1.12, week ending 06/21/13:
