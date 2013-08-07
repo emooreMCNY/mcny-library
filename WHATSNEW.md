@@ -1,4 +1,10 @@
 
+Version 1.21, week ending 08/09/13:
+-----------------------------
+* Added text number to About section.
+* Added new exhibit for August 2013
+
+
 Version 1.2, week ending 07/19/13:
 -----------------------------
 * Restored Graphic Novel exhibit.
