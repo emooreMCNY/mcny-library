@@ -1,4 +1,11 @@
 
+Version 1.22, week ending 08/16/13:
+-----------------------------
+* Updated "Database By Subjects" link.
+* Updated "Just Arrived" books for August 2013.
+* Changed Hours in static sections and in footer Javascript from Summer Semester to Intersession.
+
+
 Version 1.21, week ending 08/09/13:
 -----------------------------
 * Added text number to About section.
