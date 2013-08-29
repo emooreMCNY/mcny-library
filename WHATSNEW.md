@@ -1,3 +1,13 @@
+Version 2.00, week ending 08/30/13:
+-----------------------------
+* Reordered content sections to improve navigation.
+* Combined "Faculty" and "Students" Services content section into one; added ILL email link.
+* Created new "Citation Resources" section; moved Citation Guides link; removed link to EasyBib; added link to LEC.
+* Renamed "Wireless and Computer" section to "Technology Help"; added Help Desk email link.
+* Removed links from Research section, to reduce redundancy/improve clarity in concert with LibGuides revamp.
+* Added web-only "Films on Demand" web-only link to "Purpose Handbooks and More".
+* Changed staff titles.
+
 
 Version 1.22, week ending 08/16/13:
 -----------------------------
