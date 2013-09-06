@@ -1,3 +1,8 @@
+Version 2.01, week ending 09/06/13:
+-----------------------------
+* Reverted library schedule text and script to regular fall semester schedule.
+
+
 Version 2.00, week ending 08/30/13:
 -----------------------------
 * Reordered content sections to improve navigation.
