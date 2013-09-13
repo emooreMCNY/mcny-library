@@ -1,3 +1,10 @@
+Version 2.02, week ending 09/13/13:
+-----------------------------
+* Added September main exhibit to Collection Spotlight.
+* Added Social Justice exhibit to Collection Spotlight.
+* Added Print Periodicals exhibit to Collection Spotlight.
+
+
 Version 2.01, week ending 09/06/13:
 -----------------------------
 * Reverted library schedule text and script to regular fall semester schedule.
