@@ -1,3 +1,11 @@
+Version 2.10, week ending 09/13/13:
+-----------------------------
+
+* Added link to IBIS World database to Research Section.
+* Added email link for reserving Room 1210, and link to room reservation policies, under Services.
+* Removed departing staff member from staff directory.
+
+
 Version 2.02, week ending 09/13/13:
 -----------------------------
 * Added September main exhibit to Collection Spotlight.
