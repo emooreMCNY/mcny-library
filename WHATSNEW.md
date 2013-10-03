@@ -1,3 +1,10 @@
+Version 2.11, week ending 10/04/13:
+-----------------------------
+
+* Updated "Just Arrived" Books for October 2013.
+* Updated Collection Spotlight Main Exhibit for October 2013.
+
+
 Version 2.10, week ending 09/13/13:
 -----------------------------
 
