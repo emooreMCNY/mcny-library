@@ -1,3 +1,12 @@
+Version 2.12, 11/05/13:
+-----------------------------
+
+* Updated "Just Arrived" Books for November 2013.
+* Updated Collection Spotlight Main Exhibit for November 2013.
+* Updated Collection Spotlight Critical Issues Exhibit for November 2013.
+* Added new Evening Reference Librarian to Who We Are.
+
+
 Version 2.11, week ending 10/04/13:
 -----------------------------
 
