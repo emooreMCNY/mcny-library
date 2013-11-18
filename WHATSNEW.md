@@ -1,3 +1,9 @@
+Version 2.13, 11/18/13:
+-----------------------------
+
+* Added tracking code for Google Analytics.
+
+
 Version 2.12, 11/05/13:
 -----------------------------
 
