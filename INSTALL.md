@@ -1,4 +1,4 @@
-#Full Code#
+﻿#Full Code#
 * [Live Demo Site] (http://weareinflux.com/onepagerdemo/)
 * [Download At Influx] (http://weareinflux.com/images/code/opmaster.zip)
 
@@ -20,3 +20,4 @@
 * [Open Library Foundation] (http://openlibrary.org/) 
 * [LibGuides] (http://libguides.mcny.edu/)
 * [Library H3lp] (https://us.libraryh3lp.com)
+* [Google Analytics] (http://www.google.com/analytics/)
