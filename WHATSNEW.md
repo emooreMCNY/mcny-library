@@ -1,3 +1,10 @@
+Version 2.14, 11/25/13:
+-----------------------------
+
+* Changed Today's Hours script for Thanksgiving week.
+* Added "Thanksgiving Hours" text to static locations.
+
+
 Version 2.13, 11/18/13:
 -----------------------------
 
