@@ -36,13 +36,12 @@
 	var currentTime = new Date()
 	var day = currentTime.getDay()
 	var holidayDate= currentTime.getDate(); 
-	
-	if (holidayDate <25 || holidayDate >30 ) { 
-	var openTime = open2[day];
+ 		
+		if (holidayDate <25 || holidayDate >30 ) { 
+		var openTime = open2[day];
 	var closeTime = close[day];
 	createHours(openTime,closeTime);
-	}
-	
+			}
 		if (holidayDate >=25 && holidayDate <=30) {
     var openTime = openHoliday[day];
     var closeTime = closeHoliday[day];
