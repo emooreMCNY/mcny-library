@@ -20,14 +20,10 @@
 
 	var open2=["X","9:00am","9:00am","9:00am","9:00am","9:00am","8:00am"]; // Edit this line 
 	
-	var openHoliday=["X","9:00am","9:00am","9:00am","X","X", "9:00am"];
-	
 // Enter the time your library closes, starting with Sunday. If your library is 
 // closed, enter "X" for the time.
 
-	var close=["X","10:00pm","10:00pm","10:00pm","10:00pm","10:00pm","7:00pm"];
-	
-	var closeHoliday=["X","10:00pm","10:00pm","5:00pm","X","X","5:00pm"]; // Edit this line
+	var close=["X","10:00pm","10:00pm","10:00pm","10:00pm","10:00pm","7:00pm"]; // Edit this line
 
 			
 // Do not edit below this line
@@ -35,20 +31,10 @@
 		
 	var currentTime = new Date()
 	var day = currentTime.getDay()
-	var holidayDate= currentTime.getDate(); 
 	
-	if (holidayDate <25 || holidayDate >30 ) { 
 	var openTime = open2[day];
 	var closeTime = close[day];
 	createHours(openTime,closeTime);
-	}
-	
-		if (holidayDate >=25 && holidayDate <=30) {
-    var openTime = openHoliday[day];
-    var closeTime = closeHoliday[day];
-    createHours(openTime,closeTime);
-    }
-
 	
 	
 	
