@@ -1,3 +1,13 @@
+Version 2.15, 12/06/13:
+-----------------------------
+
+* Reverted Today's Hours script to normal semester hours.
+* Removed "Thanksgiving Hours" text from static locations.
+* Updated "Just Arrived" Books for December 2013.
+* Updated Collection Spotlight Main Exhibit for December 2013.
+* Reverted Side Image 1 to Winter picture.
+
+
 Version 2.14, 11/25/13:
 -----------------------------
 
