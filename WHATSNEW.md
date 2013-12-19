@@ -1,3 +1,12 @@
+Version 2.16, 12/19/13:
+-----------------------------
+
+* Changed Today's Hours script for holiday hours during 12/22/13-0/1.
+* Added "Holiday/Intersession Hours" text to static locations.
+* Changed third Collection Spotlight Exhibit to Staff Picks; added image and text.
+* Added borders to Collection Spotlight images.
+
+
 Version 2.15, 12/06/13:
 -----------------------------
 
