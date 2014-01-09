@@ -1,3 +1,15 @@
+Version 3.00, 01/09/14:
+-----------------------------
+
+* Reordered content sections to improve navigation.
+* Updated links for Find Articles and Background Information to new LibGuide in "Research".
+* Added link to 'Research Guides' in Research.
+* Added link to Archive LibGuide in Purpose Handbooks & More.
+* Updated "Just Arrived" Books for January 2014.
+* Updated Collection Spotlight Main Exhibit for January 2014.
+* Updated Collection Spotlight Critical Issues Exhibit for January 2014.
+
+
 Version 2.16, 12/19/13:
 -----------------------------
 
