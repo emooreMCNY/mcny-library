@@ -1,3 +1,9 @@
+Version 3.01, 01/17/14:
+-----------------------------
+
+* Updated Today's Hours script for week beginning 01/20/14.
+* Added MLK Holiday note to static locations.
+
 Version 3.00, 01/09/14:
 -----------------------------
 

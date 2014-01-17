@@ -3,7 +3,7 @@ Source code, stylesheets, scripts, and images for the homepage of the Library at
 Adapted from the One-Pager template, created by Influx/Aaron Schmidt/Nate Hill; altered to suited the needs of an 
 urban academic library.
 
-**Current Version**: 3.00
+**Current Version**: 3.01
 
 If you have questions, please contact me at [emoore@mcny.edu.](mailto:emoore@mcny.edu)  
 Emma Moore  
