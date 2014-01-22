@@ -1,3 +1,9 @@
+Version 3.02, 01/22/14;
+-----------------------------
+
+* Reverted Today's Hours script to standard semester hours.
+* Removed holiday note from static locations.
+
 Version 3.01, 01/17/14:
 -----------------------------
 
