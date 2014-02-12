@@ -1,3 +1,12 @@
+Version 3.03, 02/12/14;
+-----------------------------
+
+* Updated "Just Arrived" Books for February 2014.
+* Updated Collection Spotlight Main Exhibit for February 2014.
+* Updated Today's Hours script for Presidents' Day week beginning 02/17/14.
+* Added Presidents' Day note to static locations.
+
+
 Version 3.02, 01/22/14;
 -----------------------------
 
