@@ -1,4 +1,11 @@
-Version 3.04, 01/22/14;
+Version 3.05, 03/12/14;
+-----------------------------
+
+* Updated "Just Arrived" Books for March 2014.
+* Updated Collection Spotlight Main Exhibit for March 2014.
+
+
+Version 3.04, 02/20/14;
 -----------------------------
 
 * Reverted Today's Hours script to standard semester hours.
