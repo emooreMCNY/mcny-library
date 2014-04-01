@@ -1,3 +1,12 @@
+Version 3.06, 04/01/14;
+-----------------------------
+
+* Updated "Just Arrived" Books for April 2014.
+* Updated Collection Spotlight Main Exhibit for April 2014.
+* Updated Collection Spotlight Critical Issues Exhibit for April 2014.
+* Added first round of accessibility updates: consisten alt text for images.
+
+
 Version 3.05, 03/12/14;
 -----------------------------
 
