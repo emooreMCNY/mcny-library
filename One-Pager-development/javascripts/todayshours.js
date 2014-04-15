@@ -20,24 +20,47 @@
 
 	var open2=["X","9:00am","9:00am","9:00am","9:00am","9:00am","8:00am"]; // Edit this line 
 	
+	var openIntersession=["X","9:00am","9:00am","9:00am","9:00am","9:00am", "X"];
+	
 // Enter the time your library closes, starting with Sunday. If your library is 
 // closed, enter "X" for the time.
 
 	var close=["X","10:00pm","10:00pm","10:00pm","10:00pm","10:00pm","7:00pm"]; // Edit this line
 
+	var closeIntersession1=["X","10:00pm","10:00pm","5:00pm","5:00pm","5:00pm","X"];
+	
+	var closeIntersession2=["X","5:00pm","5:00pm","5:00pm","5:00pm","5:00pm","X"]; 
 			
 // Do not edit below this line
 // -------------------------------------------------------------------
 		
 	var currentTime = new Date()
 	var day = currentTime.getDay()
+	var intersessionDate= currentTime.getDate();
 	
+		if (intersessionDate >=1 && intersessionDate <=3) {
+	var openTime = openIntersession[day];
+	var closeTime = closeIntersession2[day];
+	createHours(openTime,closeTime);
+	}
+
+	if (intersessionDate >=4 && intersessionDate <=19) {
 	var openTime = open2[day];
 	var closeTime = close[day];
 	createHours(openTime,closeTime);
+	}
 	
+	if (intersessionDate >=20 && intersessionDate <=26) {
+	var openTime = openIntersession[day];
+	var closeTime = closeIntersession1[day];
+	createHours(openTime,closeTime);
+	}
 	
-	
+	if (intersessionDate >=27 && intersessionDate <=30) {
+	var openTime = openIntersession[day];
+	var closeTime = closeIntersession2[day];
+	createHours(openTime,closeTime);
+	}
 	
 	function createHours(openTime, closeTime) 
 	{ // Build the hours string
