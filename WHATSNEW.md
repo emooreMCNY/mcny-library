@@ -1,3 +1,12 @@
+Version 3.07, 04/17/14;
+-----------------------------
+
+* Updated Today's Hours script for Spring-Summer Intersession Schedule.
+* Added Intersession Hours note to static locations.
+* Changed sidebar picture 1 to summer view; updated alt-text.
+* Converted MCNY from acronym to full title in header and Hours & Location; other copyediting/link fixes.
+ 
+
 Version 3.06, 04/01/14;
 -----------------------------
 
