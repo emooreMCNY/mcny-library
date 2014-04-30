@@ -1,3 +1,8 @@
+Version 3.08, 04/30/14;
+-----------------------------
+
+* Updated search form syntax for Summon 2.0 switchover.
+
 Version 3.07, 04/17/14;
 -----------------------------
 
