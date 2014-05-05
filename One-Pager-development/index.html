@@ -104,7 +104,7 @@ while(x=eval(x));
             	<div id="page-content">
                 
                 <!--this section has your search box.  you'll want to connect this to your ILS.-->
-                <form id-"searchform"="" method="GET" action="http://mcnylibrary.summon.serialssolutions.com/">
+                <form id-"searchform"="" method="GET" action="http://mcnylibrary.summon.serialssolutions.com/" onsubmit="window.location =  this.action + '?q=' + encodeURIComponent(this.q.value); return false;">
                 <div class="fourteen columns">
               <input id="searchbox" name="q" value="search for books and journal articles" type="text">
                   </div>
