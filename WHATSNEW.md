@@ -1,3 +1,13 @@
+Version 3.09, 05/06/14;
+-----------------------------
+
+* Added workaround JQuery to fix Summon API phrase searching bug.
+* Reverted Today's Hours to standard semester hours.
+* Removed Intersession hours from static locations.
+* Updated "Just Arrived" Books for May 2014.
+* Updated Collection Spotlight Main Exhibit for May 2014.
+
+
 Version 3.08, 04/30/14;
 -----------------------------
 
