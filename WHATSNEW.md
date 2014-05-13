@@ -1,3 +1,11 @@
+Version 3.10, 05/13/14;
+-----------------------------
+
+* Changed link label for 4th header link from "My Account" to "Library Handbook".
+* Added "My Account" link to relevant section of Library Handbook guide to Contact section.
+* Removed SIRSI Bookmyne link from Mobile "My Account" header.
+* Added "My Account" link to relevant section of Library Handbook guide to mobile content area section.
+
 Version 3.09, 05/06/14;
 -----------------------------
 
