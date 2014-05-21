@@ -1,3 +1,9 @@
+
+Version 3.11, 05/21/14;
+-----------------------------
+* Updated Today's Hours script for Presidents' Day week beginning 02/17/14.
+* Added Presidents' Day note to static locations.
+
 Version 3.10, 05/13/14;
 -----------------------------
 
