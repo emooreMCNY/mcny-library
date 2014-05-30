@@ -1,8 +1,19 @@
 
+Version 3.12, 05/30/14;
+-----------------------------
+
+* Revised Hours & Location Areas (main and mobile) for logic and efficiency.
+* Reverted Today's Hours to standard semester hours.
+* Removed Intersession hours from static locations.
+* Updated "Just Arrived" Books for June 2014.
+* Updated Collection Spotlight Main Exhibit for June 2014.
+
+
 Version 3.11, 05/21/14;
 -----------------------------
-* Updated Today's Hours script for Presidents' Day week beginning 02/17/14.
-* Added Presidents' Day note to static locations.
+
+* Updated Today's Hours script for Memorial Day week beginning 05/26/14.
+* Added Memorial Day note to static locations.
 
 Version 3.10, 05/13/14;
 -----------------------------
