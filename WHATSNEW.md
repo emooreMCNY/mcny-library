@@ -1,3 +1,10 @@
+Version 3.2, 06/10/14
+-----------------------------
+
+* Renamed subheading of Research area to "Find Data".
+* Added link to Statistics Sources guide to "Find Data" area.
+* Updated Collection Spotlight Critical Issues Exhibit for June 2014.
+
 
 Version 3.12, 05/30/14;
 -----------------------------
