@@ -1,3 +1,13 @@
+Version 3.3, 07/01/14
+-----------------------------
+* Updated Today's Hours script for Independence Day week beginning 06/30/14.
+* Added Independence Day note to static locations.
+* Added Moodle Support Form Link to Technology Help.
+* Updated "Just Arrived" Books for July 2014.
+* Updated Collection Spotlight Main Exhibit for July 2014.
+* Updated Collection Spotlight Critical Issues Exhibit for July 2014.
+
+
 Version 3.2, 06/10/14
 -----------------------------
 
