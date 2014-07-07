@@ -1,3 +1,10 @@
+Version 3.31, 07/06/14
+-----------------------------
+
+* Added Google Analytics Event Tracking to selected outbound links.
+* Reverted Today's Hours to standard semester hours.
+* Removed Independence Day Closure from static locations.
+
 Version 3.3, 07/01/14
 -----------------------------
 * Updated Today's Hours script for Independence Day week beginning 06/30/14.
@@ -21,7 +28,7 @@ Version 3.12, 05/30/14;
 
 * Revised Hours & Location Areas (main and mobile) for logic and efficiency.
 * Reverted Today's Hours to standard semester hours.
-* Removed Intersession hours from static locations.
+* Removed Memorial Day Closure from static locations.
 * Updated "Just Arrived" Books for June 2014.
 * Updated Collection Spotlight Main Exhibit for June 2014.
 
