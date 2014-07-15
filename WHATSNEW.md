@@ -1,3 +1,10 @@
+Version 3.4, 07/15/14
+-----------------------------
+
+* Removed extraneous code for inactive services.
+* Removed Group Study email/link after decision to discontinue program.
+
+
 Version 3.31, 07/06/14
 -----------------------------
 
