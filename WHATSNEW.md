@@ -1,3 +1,8 @@
+Version 3.41, 07/18/14
+-----------------------------
+
+* Changed Research Instruction Session link from email to Google Form.
+
 Version 3.4, 07/15/14
 -----------------------------
 
