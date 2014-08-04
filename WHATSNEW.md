@@ -1,3 +1,11 @@
+Version 3.42, 08/04/14
+-----------------------------
+
+* Updated "Just Arrived" Books for August 2014.
+* Updated Collection Spotlight Main Exhibit for August 2014.
+* Updated Collection Spotlight Critical Issues Exhibit for August 2014.
+
+
 Version 3.41, 07/18/14
 -----------------------------
 
