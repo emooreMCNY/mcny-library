@@ -1,3 +1,14 @@
+Version 4.00, 08/28/14
+-----------------------------
+
+* Updated LibGuides links to version 2.0 URLS.
+* Compressed New Acquisitions and Collection Spotlight into content section 5.
+* Shifted Purpose Handbooks and Services to content sections 3 and 4.
+* Split Research content section into "Research: Books, Articles, and Journals" and "Research: Facts, Stats, and Business Data".
+* Added "Find Books" content to Research 1; moved ebook-related links from Purpose Handbooks section to Research "Find Books" heading.
+* Added Databases A-Z link to "Find Articles" heading.
+
+
 Version 3.43, 08/14/14
 -----------------------------
 
