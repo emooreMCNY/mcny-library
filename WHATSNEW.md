@@ -1,3 +1,13 @@
+Version 4.01, 09/08/14
+-----------------------------
+
+* Fixed Today's Hours Intersession bug.
+* Updated "Just Arrived" Books for September 2014.
+* Updated Main Exhibit for September 2014.
+* Updated Critical Issues Exhibit for September 2014.
+* Removed departed staff member from staff directory.
+
+
 Version 4.00, 08/28/14
 -----------------------------
 
