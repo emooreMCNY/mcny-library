@@ -1,3 +1,9 @@
+Version 4.02, 09/15/14
+-----------------------------
+
+* Updated Today's Hours script for Fall Semester Schedule.
+* Removed Intersession Hours note from static locations.
+
 Version 4.01, 09/08/14
 -----------------------------
 
