@@ -25,27 +25,19 @@
 
 	var close=["X","10:00pm","10:00pm","10:00pm","10:00pm","10:00pm","7:00pm"]; // Edit this line
 	
-	var closeIntersession=["X","5:00pm","5:00pm","5:00pm","5:00pm","10:00pm","7:00pm"];
-
-			
+				
 // Do not edit below this line
 // -------------------------------------------------------------------
 		
 	var currentTime = new Date()
 	var day = currentTime.getDay()
-	var intersessionDate= currentTime.getDate();
 	
-	if (intersessionDate >=1 && intersessionDate <=13) {
-	var openTime = open2[day];
-	var closeTime = closeIntersession[day];
-	createHours(openTime,closeTime);
-	}
 	
-	if (intersessionDate >=14 && intersessionDate <=30) {
-	var openTime = open2[day];
+		
+		var openTime = open2[day];
 	var closeTime = close[day];
 	createHours(openTime,closeTime);
-	}
+	
 	
 	
 	function createHours(openTime, closeTime) 
