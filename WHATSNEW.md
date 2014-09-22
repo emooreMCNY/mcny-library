@@ -1,3 +1,11 @@
+Version 4.1, 09/22/14
+-----------------------------
+
+* Changed titles in staff directory.
+* Changed Research Consultation link from email to Google Form.
+* Added link to Course Guide Design Google Form.
+
+
 Version 4.02, 09/15/14
 -----------------------------
 
