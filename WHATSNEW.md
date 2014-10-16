@@ -1,3 +1,13 @@
+Version 4.12, 10/16/14
+-----------------------------
+
+* Removed Columbus Day note to static locations.
+* Updated Today's Hours after Columbus Day closure.
+* Added Reference Desk phone number to contact locations
+* Changed telephone number link types.
+* Minor fixes.
+
+
 Version 4.11, 10/08/14
 -----------------------------
 * Updated Main Exhibit for September 2014.
