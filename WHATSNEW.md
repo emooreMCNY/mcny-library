@@ -1,3 +1,12 @@
+Version 4.13, 10/28/14
+-----------------------------
+
+* Fixed typo.
+* Uncommented third exhibit.
+* Added Audrey Cohen Social Justice Collection image and text.
+
+
+
 Version 4.12, 10/16/14
 -----------------------------
 
