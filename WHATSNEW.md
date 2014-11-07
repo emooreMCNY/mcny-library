@@ -1,3 +1,11 @@
+Version 4.14, 11/07/14
+-----------------------------
+
+* Updated "Just Arrived" Books for November 2014.
+* Updated Main Exhibit for November 2014.
+* Updated Critical Issues Exhibit for November 2014.
+
+
 Version 4.13, 10/28/14
 -----------------------------
 
