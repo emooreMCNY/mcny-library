@@ -1,3 +1,9 @@
+Version 4.14, 11/07/14
+-----------------------------
+* Updated Main Exhibit for November 2014.
+* Updated Critical Issues Exhibit for November 2014.
+
+
 Version 4.13, 10/28/14
 -----------------------------
 
@@ -19,8 +25,8 @@ Version 4.12, 10/16/14
 
 Version 4.11, 10/08/14
 -----------------------------
-* Updated Main Exhibit for September 2014.
-* Updated Critical Issues Exhibit for September 2014.
+* Updated Main Exhibit for October 2014.
+* Updated Critical Issues Exhibit for October 2014.
 * Hid Staff Picks Exhibit
 * Added Columbus Day note to static locations.
 * Updated Today's Hours for Columbus Day closure.
