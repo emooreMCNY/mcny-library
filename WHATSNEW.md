@@ -1,3 +1,10 @@
+Version 4.15, 11/19/14
+-----------------------------
+
+* Added Thanskgiving Holiday note to static locations.
+* Updated Today's Hours for Thanskgiving hours and closure.
+
+
 Version 4.14, 11/07/14
 -----------------------------
 
