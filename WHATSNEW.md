@@ -1,3 +1,13 @@
+Version 4.16, 12/04/14
+-----------------------------
+
+* Updated "Just Arrived" Books for November 2014.
+* Removed Thanskgiving Holiday note from static locations.
+* Removed Thanskgiving hours and closure from Today's Hours.
+* Changed sidebar picture 1 to winter view; updated alt-text.
+
+
+
 Version 4.15, 11/19/14
 -----------------------------
 
