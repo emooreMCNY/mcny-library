@@ -1,7 +1,14 @@
+Version 4.17, 12/08/14
+-----------------------------
+
+* Updated Main Exhibit for December 2014.
+* Updated Critical Issues Exhibit for December 2014.
+
+
 Version 4.16, 12/04/14
 -----------------------------
 
-* Updated "Just Arrived" Books for November 2014.
+* Updated "Just Arrived" Books for December 2014.
 * Removed Thanskgiving Holiday note from static locations.
 * Removed Thanskgiving hours and closure from Today's Hours.
 * Changed sidebar picture 1 to winter view; updated alt-text.
