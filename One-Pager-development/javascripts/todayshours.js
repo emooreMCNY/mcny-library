@@ -18,24 +18,12 @@
 //
 // var open=["X","9:00am","9:00am","9:00am","9:00am","9:00am","1:30pm"];
 
-	var open2=["X","9:00am","9:00am","9:00am","9:00am","9:00am","8:00am"];
-	
-	var openXmas=["X","9:00am","9:00am","X","X","X","X"]; // Edit this line 
-	
-	var openNYE=["X","X","X","X","X","9:00am","X"]; // Edit this line 
-	
-	var openIntersession=["X","9:00am","9:00am","9:00am","9:00am","9:00am","X"];  // Edit this line 
+	var open2=["X","9:00am","9:00am","9:00am","9:00am","9:00am","8:00am"]; // Edit this line 
 	
 // Enter the time your library closes, starting with Sunday. If your library is 
 // closed, enter "X" for the time.
 
 	var close=["X","10:00pm","10:00pm","10:00pm","10:00pm","10:00pm","7:00pm"]; // Edit this line
-	
-	var closeXmas=["X","5:00pm","8:00pm","X","X","X","X"]; // Edit this line
-	
-	var closeNYE=["X","X","X","X","X","5:00pm","X"]; // Edit this line
-	
-	var closeIntersession=["X","5:00pm","5:00pm","5:00pm","5:00pm","5:00pm","X"]; // Edit this line
 	
 				
 // Do not edit below this line
@@ -43,37 +31,14 @@
 		
 	var currentTime = new Date()
 	var day = currentTime.getDay()
-	var intersessionDate= currentTime.getDate();
 	
-	if (intersessionDate >=1 && intersessionDate <=3) {
-	var openTime = openNYE[day];
-	var closeTime = closeNYE[day];
-	createHours(openTime,closeTime);
-	}
 	
-	if (intersessionDate >=4 && intersessionDate <=10) {
-	var openTime = openIntersession[day];
-	var closeTime = closeIntersession[day];
-	createHours(openTime,closeTime);
-	}
-	
-	if (intersessionDate >=11 && intersessionDate <=20) {
-	var openTime = open2[day];
+		
+		var openTime = open2[day];
 	var closeTime = close[day];
 	createHours(openTime,closeTime);
-	}
 	
-	if (intersessionDate >=21 && intersessionDate <=27) {
-	var openTime = openXmas[day];
-	var closeTime = closeXmas[day];
-	createHours(openTime,closeTime);
-	}
 	
-	if (intersessionDate >=28 && intersessionDate <=31) {
-	var openTime = openNYE[day];
-	var closeTime = closeNYE[day];
-	createHours(openTime,closeTime);
-	}
 	
 	function createHours(openTime, closeTime) 
 	{ // Build the hours string
