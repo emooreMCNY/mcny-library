@@ -1,3 +1,16 @@
+Version 4.19, 01/13/15
+-----------------------------
+
+* Reverted to normal semester hours in static locations and Today's Hours.
+* Changed Today's Hours script for Martin Luther King Day closure on 01/19/15.
+* Added Martin Luther King Day hours text to static locations.
+* Updated Staff Directory.
+* Updated Main Exhibit for January 2015.
+* Updated Critical Issues Exhibit for January 2015.
+* Updated "Just Arrived" Books for January 2015.
+
+
+
 Version 4.18, 12/16/14
 -----------------------------
 
