@@ -1,3 +1,10 @@
+Version 4.20, 01/20/15
+-----------------------------
+
+* Reverted to normal semester hours in static locations and Today's Hours.
+* Removed Martin Luther King Day hours text from static locations.
+
+
 Version 4.19, 01/13/15
 -----------------------------
 
