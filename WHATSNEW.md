@@ -1,3 +1,14 @@
+Version 4.21, 02/06/15
+-----------------------------
+
+* Changed Today's Hours script for Presidents Day closure on 02/16/15.
+* Added Presidents Day closure to static locations.
+* Updated Main Exhibit for February 2015.
+* Updated Critical Issues Exhibit for February 2015.
+* Added link title text to Exhibit images.
+* Updated "Just Arrived" Books for February 2015.
+
+
 Version 4.20, 01/20/15
 -----------------------------
 
