@@ -1,3 +1,18 @@
+Version 5.00, 03/05/15
+-----------------------------
+
+* Added Circulation Information content section.
+* Eliminated Contact content section.
+* Shifted order of other content sections.
+* Eliminated My Account content section from mobile view.
+* Reverted to normal semester hours in static locations and Today's Hours.
+* Updated Main Exhibit for March 2015.
+* Updated Critical Issues Exhibit for March 2015.
+* Updated "Just Arrived" Books for March 2015.
+* Added text number to footer contact information.
+
+
+
 Version 4.21, 02/06/15
 -----------------------------
 
