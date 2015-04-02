@@ -1,3 +1,13 @@
+Version 5.01, 04/02/15
+-----------------------------
+
+* Updated Main Exhibit for April 2015.
+* Updated Critical Issues Exhibit for April 2015.
+* Updated "Just Arrived" Books for April 2015.
+* Added hover help-text to About, Search, Collection Spotlight, Citation Resources, Services, and Technology Help.
+* Reverted to summer sidebar photo.
+
+
 Version 5.00, 03/05/15
 -----------------------------
 
