@@ -1,3 +1,11 @@
+Version 5.02, 04/14/15
+-----------------------------
+
+* Added Intersession Hours note to static locations.
+* Added Intersession Hours code to Today's Hours.
+* Added MCNY Publications image and text to collection spotlight.
+
+
 Version 5.01, 04/02/15
 -----------------------------
 
