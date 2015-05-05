@@ -1,3 +1,11 @@
+Version 5.04, 05/05/15
+-----------------------------
+
+* Updated Academic Support link & Text; changed content section title.
+* Updated "Just Arrived" Books for May 2015.
+
+
+
 Version 5.03, 04/20/15
 -----------------------------
 
