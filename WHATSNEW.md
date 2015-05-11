@@ -1,3 +1,12 @@
+Version 5.05, 05/11/15
+-----------------------------
+
+* Updated Main Exhibit for May 2015.
+* Updated Critical Issues Exhibit for May 2015.
+* Reverted Today's Hours to standard semester hours.
+* Removed Intersession hours from static locations.
+
+
 Version 5.04, 05/05/15
 -----------------------------
 
