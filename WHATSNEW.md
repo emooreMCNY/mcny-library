@@ -1,3 +1,12 @@
+Version 5.06, 06/04/15
+-----------------------------
+
+* Updated Main Exhibit for June 2015.
+* Updated Critical Issues Exhibit for June 2015.
+* Updated "Just Arrived" Books for June 2015.
+* Updated staff titles in About Us.
+
+
 Version 5.05, 05/11/15
 -----------------------------
 
