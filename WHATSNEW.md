@@ -1,3 +1,10 @@
+Version 5.07, 07/01/15
+-----------------------------
+
+* Updated Today's Hours script for Independence Day closure (07/03/15-07/04/15).
+* Added Independence Day note to static locations.
+
+
 Version 5.06, 06/04/15
 -----------------------------
 
