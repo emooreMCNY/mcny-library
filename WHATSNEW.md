@@ -1,3 +1,11 @@
+Version 5.08, 07/08/15
+---------------------------
+
+* Reverted Today's Hours and static locations to semester hours.
+* Updated "Just Arrived" books for July 2015.
+* Updated Main Exhibit and Critical Issues Exhibit for July 2015.
+
+
 Version 5.07, 07/01/15
 -----------------------------
 
