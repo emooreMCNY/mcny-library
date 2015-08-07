@@ -1,3 +1,10 @@
+Version 5.09, 08/07/15
+---------------------------
+
+* Updated "Just Arrived" books for August 2015.
+* Updated Main Exhibit and Critical Issues Exhibit for August 2015.
+
+
 Version 5.08, 07/08/15
 ---------------------------
 
