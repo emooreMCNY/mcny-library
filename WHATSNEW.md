@@ -1,3 +1,9 @@
+Version 5.10, 08/13/15
+-----------------------------
+
+* Updated Today's Hours script for Summer-Fall Intersession Schedule.
+* Added Intersession Hours note to static locations.
+
 Version 5.09, 08/07/15
 ---------------------------
 
