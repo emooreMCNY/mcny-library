@@ -70,11 +70,7 @@
 	createHours(openTime,closeTime);
 	}
 	
-	if (intersessionDate >=16 && intersessionDate <=22) {
-	var openTime = openIntersession1[day];
-	var closeTime = closeIntersession1[day];
-	createHours(openTime,closeTime);
-	}
+	
 	
 	if (intersessionDate >=23 && intersessionDate <=31) {
 	var openTime = openIntersession1[day];
