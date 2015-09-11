@@ -1,3 +1,11 @@
+Version 5.11, 09/11/15
+---------------------------
+
+* Reverted Today's Hours and static locations to semester hours; removed Holiday Note.
+* Updated "Just Arrived" books for September 2015.
+* Updated Main Exhibit and Critical Issues Exhibit for September 2015.
+
+
 Version 5.10, 08/13/15
 -----------------------------
 
