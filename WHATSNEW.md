@@ -1,3 +1,13 @@
+Version 5.12, 10/07/15
+---------------------------
+
+* Updated "Just Arrived" books for October 2015.
+* Updated Main Exhibit and Critical Issues Exhibit for October 2015.
+* Added Columbus Day note to static locations.
+* Updated Today's Hours for Columbus Day closure.
+* Revised link text for purpose handbooks.
+
+
 Version 5.11, 09/11/15
 ---------------------------
 
