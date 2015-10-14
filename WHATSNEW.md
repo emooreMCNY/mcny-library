@@ -1,3 +1,9 @@
+Version 5.13, 10/14/15
+---------------------------
+
+* Reverted Today's Hours to semester hours; removed Columbus Day note from static locations
+.
+
 Version 5.12, 10/07/15
 ---------------------------
 
