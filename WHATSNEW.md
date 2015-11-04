@@ -1,3 +1,12 @@
+Version 5.14, 11/04/15
+---------------------------
+
+* Updated "Just Arrived" Books for November 2015.
+* Updated Main Exhibit for November 2015.
+* Updated Critical Issues Exhibit for November 2015.
+
+
+
 Version 5.13, 10/14/15
 ---------------------------
 
