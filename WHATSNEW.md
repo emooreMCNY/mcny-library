@@ -1,3 +1,11 @@
+Version 5.16, 12/03/15
+-----------------------------
+
+* Removed Thanskgiving Holiday note to static locations.
+* Reverted to Winter Sidebar Photo.
+* Updated "Just Arrived" Books for December 2015.
+
+
 Version 5.15, 11/20/15
 -----------------------------
 
