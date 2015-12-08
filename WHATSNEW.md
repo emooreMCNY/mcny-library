@@ -1,3 +1,9 @@
+Version 5.17, 12/08/15
+-----------------------------
+
+* Updated Main Exhibit for December 2015.
+* Updated Critical Issues Exhibit for December 2015.
+
 Version 5.16, 12/03/15
 -----------------------------
 
