@@ -1,3 +1,9 @@
+Version 5.18, 12/16/15
+-----------------------------
+* Changed Today's Hours script for holiday hours during 12/22/15-01/10/16.
+* Added "Holiday/Intersession Hours" text to static locations.
+
+
 Version 5.17, 12/08/15
 -----------------------------
 
