@@ -322,7 +322,8 @@ h3 {font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-w
 ================================================== */
 
 	form {
-		margin-bottom: 20px; }
+	margin-bottom: 10px;
+}
 	fieldset {
 		margin-bottom: 20px; }
 	input[type="text"],
@@ -536,14 +537,14 @@ padding-top:0px;}
 
 .ipad-stuff{display:none;}
 
-#searchbox{	
-
+#searchbox{
 	border:0px solid #e3e3e3;
 	font-size:1.7em;
 	font-style:italic;
 	color:#E74E39;
 	width:100%;
 	padding-left: 10px;
+	height: 44px;
 }
 
 input[id="searchbox"]{float:left;width:100%;}
@@ -573,4 +574,3 @@ input[value="search"]{
  .libraryh3lp {
 	 color:#F00
  }
-
