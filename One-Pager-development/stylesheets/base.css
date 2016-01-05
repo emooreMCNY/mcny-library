@@ -32,7 +32,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		font-family: Helvetica, Arial, sans-serif; }
+		font-family:Arial, Helvetica, sans-serif; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
@@ -52,6 +52,7 @@
 
 /* #Basic Styles
 ================================================== */
+	
 body {
 background: url(texture3.png) #000000;
 font: 14px/21px;
@@ -95,12 +96,18 @@ h3 {font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-w
 	h6 { font-size: 14px; line-height: 21px; }
 	.subheader { color: #777; }
 
+	
 	p, p a {  margin: 0 0 20px 0; }
+
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
 	em { font-style: italic; }
+
+
+
 	strong {  font-weight: bold;}
+
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
@@ -115,6 +122,10 @@ h3 {font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-w
 
 /* #Links
 ================================================== */
+
+	
+	a:hover, a:focus { color: #000; }
+
 	a, a:visited {
 	color: #000;
 	text-decoration: none;
@@ -123,6 +134,7 @@ h3 {font-size: 28px; line-height: 28px; margin-bottom: 0px;color: #514E49;font-w
 	a:hover, a:focus {
 	color: #FFF;
 }
+
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -401,7 +413,10 @@ img#MCNY_footer_logo {
 
 
 h1.logotype{
+
+	
 	color:#FFF;
+
 	font-weight:bold;
 	font-size:5em;
 	margin-top:26px;
@@ -472,6 +487,7 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	
 
 .footer{
+	
 	background-color:#000;
 	margin-top:15px;
 	width:100%;
@@ -483,6 +499,7 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 	-webkit-box-shadow: 0px 0px 5px rgba(88, 83, 74, .7);
 	box-shadow: 0px 0px 5px rgba(88, 83, 74, .7);
 	-moz-box-shadow: 0px 0px 5px rgba(88, 83, 74, .7);
+	
 	border-bottom-right-radius: 0px;
 	border-bottom-left-radius:  0px;
 	-moz-border-bottom-right-radius: 0px;
@@ -499,6 +516,7 @@ h2#reset{background-color:#8D2315;color:#fff;margin-top:0;}
 .footer a{
 	color:#F00;
 }
+
 	
 .footer-logo,  #header-links{float:right;}
 .footer-logo{margin-right:10px;
@@ -515,6 +533,7 @@ padding-top:0px;}
 #header-links a:hover {
 	color:#F00;
 }
+
 .ipad-stuff{display:none;}
 
 #searchbox{	
@@ -547,7 +566,11 @@ input[value="search"]{
 	postion:relative;
 	top:4px;
 	}
+
+
+
  
  .libraryh3lp {
 	 color:#F00
  }
+
