@@ -1,3 +1,11 @@
+Version 6.00, 01/06/16
+-----------------------------
+
+* MCNY Library Search: Switch from Summon to Worldcat Discovery.
+* A-Z Journal List: Switch from 360Link to Worldcat Link Resolver.
+* Removed Summon RSS Feed.
+* Updated "Just Arrived" Books For January 2016.
+
 Version 5.18, 12/16/15
 -----------------------------
 * Changed Today's Hours script for holiday hours during 12/22/15-01/10/16.
