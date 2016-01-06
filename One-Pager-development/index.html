@@ -34,7 +34,6 @@
 	<link rel="apple-touch-icon" href="">
 	<link rel="apple-touch-icon" sizes="72x72" href="">
 	<link rel="apple-touch-icon" sizes="114x114" href="">
-    <link rel="alternate" type="application/rss+xml" title="MCNY New Books" href="http://mcnylibrary.summon.serialssolutions.com/search?s.cmd=addTextFilter(SourceType%5C:%5C(%22Library+Catalog%22%5C))&s.sort=PublicationDate:desc&format=rss">
     <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="javascripts/tabs.js"></script>
     <script src="javascripts/op-custom.js"></script>
@@ -112,9 +111,9 @@ while(x=eval(x));
                 
 
                 <!--this section has your search box.  you'll want to connect this to your ILS.-->
-                <form id-"searchform"="" method="GET" action="http://mcnylibrary.summon.serialssolutions.com/" onsubmit="window.location =  this.action + '?q=' + encodeURIComponent(this.q.value); return false;">
+                <form id-"searchform"="" method="GET" action="http://mcny.on.worldcat.org/external-search" >
                 <div class="fourteen columns">
-              <input id="searchbox" name="q" value="search for books and journal articles" title="type your search words here" type="text">
+              <input  id="searchbox" type="search" name="queryString" value="search for books and journal articles" title="Search Query" >
                   </div>
 
                     <div class="two columns">
@@ -202,7 +201,7 @@ this is the first of the eight toggling menu sections.
                                          		                   
   <h3> Find Journals</h3>
                         <p>
-<a href="http://wh7vl3dc8w.search.serialssolutions.com/" onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'Journals']);"><strong>Electronic Journal List </strong>
+<a href=" 	http://mcny.on.worldcat.org/atoztitles/browse" onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'Journals']);"><strong>Electronic Journal List </strong>
 </a><br>
 Browse an A-Z list of the Library's electronic journals.</p>
                      
