@@ -13,9 +13,9 @@
       
 
 ##External Dependencies:##
-* [Summon Search] (http://mcnylibrary.summon.serialssolutions.com)
+* [Worldshare Discovery] (https://mcny.on.worldcat.org/discovery)
 * [EZProxy] (https://ezproxy.mcny.edu/login)
-* [360 Link] (http://wh7vl3dc8w.search.serialssolutions.com)
+* [WorldCat Knowledge Base Link Resolver] (http://mcny.on.worldcat.org/atoztitles/)
 * [Google Maps API] (https://developers.google.com/maps/documentation/staticmaps/)
 * [Open Library Foundation] (http://openlibrary.org/) 
 * [LibGuides] (http://libguides.mcny.edu/)
