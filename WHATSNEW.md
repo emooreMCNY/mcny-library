@@ -1,3 +1,12 @@
+Version 6.01, 01/12/16
+-----------------------------
+
+* Reverted Today's Hours to semester schedule.
+* Removed Holiday note from static locations.
+* Updated Main Exhibit for January 2016.
+* Updated Critical Issues Exhibit for January 2016.
+
+
 Version 6.00, 01/06/16
 -----------------------------
 
