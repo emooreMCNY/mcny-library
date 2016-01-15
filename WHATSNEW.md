@@ -1,3 +1,10 @@
+
+Version 6.02, 01/15/16
+-----------------------------
+* Changed Today's Hours script for Martin Luther King Day closure on 01/19/15.
+* Added Martin Luther King Day hours text to static locations.
+
+
 Version 6.01, 01/12/16
 -----------------------------
 
