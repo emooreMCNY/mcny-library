@@ -1,4 +1,4 @@
-Version 6.32, 01/20/16
+Version 6.03, 01/20/16
 -----------------------------
 
 * Reverted to normal semester hours in static locations and Today's Hours.
