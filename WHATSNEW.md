@@ -1,3 +1,10 @@
+Version 6.04, 02/03/16
+-----------------------------
+
+* Updated Main Exhibit for February 2016.
+* Updated "Just Arrived" Books For February 2016.
+
+
 Version 6.03, 01/20/16
 -----------------------------
 
