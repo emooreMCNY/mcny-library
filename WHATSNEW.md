@@ -1,3 +1,10 @@
+Version 6.05, 02/09/16
+-----------------------------
+
+* Changed Today's Hours script for Presidents Day closure on 02/15/16.
+* Added Presidents Day closure to static locations.
+
+
 Version 6.04, 02/03/16
 -----------------------------
 
