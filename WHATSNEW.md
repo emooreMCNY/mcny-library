@@ -1,3 +1,10 @@
+
+Version 6.06, 02/17/16
+-----------------------------
+
+* Reverted Today's Hours to semester schedule.
+* Removed Holiday note from static locations.
+
 Version 6.05, 02/09/16
 -----------------------------
 
