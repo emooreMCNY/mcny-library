@@ -1,4 +1,12 @@
 
+Version 6.07, 03/08/16
+-----------------------------
+
+* Updated Main Exhibit for March 2016.
+* Updated Critical Issues Exhibit for March 2016.
+* Updated "Just Arrived" Books for March 2016.
+
+
 Version 6.06, 02/17/16
 -----------------------------
 
