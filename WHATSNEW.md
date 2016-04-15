@@ -1,4 +1,11 @@
 
+Version 6.08, 04/15/16
+-----------------------------
+
+* Reverted to Summer Sidebar Photo.
+* Added Move/Intersession Note to static locations.
+* Change Today's Hours script for Move/Intersession closures and hours changes.
+
 Version 6.07, 03/08/16
 -----------------------------
 
