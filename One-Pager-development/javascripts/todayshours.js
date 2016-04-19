@@ -46,13 +46,7 @@
 
 	var intersessionDate= currentTime.getDate();
 	
-	if (intersessionDate >=1 && intersessionDate <=7) {
-	var openTime = openInterSession2[day];
-	var closeTime = closeInterSession2[day];
-	createHours(openTime,closeTime);
-	}
-		
-	if (intersessionDate >=8 && intersessionDate <=14) {
+	if (intersessionDate >=1 && intersessionDate <=14) {
 	var openTime = openInterSession3[day];
 	var closeTime = closeInterSession3[day];
 	createHours(openTime,closeTime);
