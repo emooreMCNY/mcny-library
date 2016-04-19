@@ -1,4 +1,9 @@
 
+Version 6.09, 04/19/16
+-----------------------------
+
+* Revisions to move and intersession schedule in Today's Hours and Static Locations.
+
 Version 6.08, 04/15/16
 -----------------------------
 
