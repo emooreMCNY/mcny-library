@@ -1,3 +1,9 @@
+Version 6.10, 04/28/16
+-----------------------------
+
+* Address Change- Hours and Location; Google Maps; MTA Info
+* Revisions to move and intersession schedule in Static Locations.
+
 
 Version 6.09, 04/19/16
 -----------------------------
