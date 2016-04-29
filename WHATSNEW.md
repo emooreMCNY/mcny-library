@@ -1,3 +1,9 @@
+
+Version 6.11, 04/29/16
+-----------------------------
+
+* Computer availability note in Hours and Location.
+
 Version 6.10, 04/28/16
 -----------------------------
 
