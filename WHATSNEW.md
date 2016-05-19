@@ -1,4 +1,13 @@
 
+Version 6.12, 05/19/16
+-----------------------------
+
+* Removed Intersession Notes from Static Locations.
+* Reverted Today's Hours to Semester Hours.
+* Removed Equipment Reservation content from Services section.
+
+
+
 Version 6.11, 04/29/16
 -----------------------------
 
