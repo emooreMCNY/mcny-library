@@ -24,7 +24,7 @@
 // Enter the time your library closes, starting with Sunday. If your library is 
 // closed, enter "X" for the time.
 
-	var close=["X","10:00pm","10:00pm","10:00pm","10:00pm","10:00pm","7:00pm"]; // Edit this line
+	var close=["X","10:00pm","10:00pm","10:00pm","10:00pm","8:00pm","7:00pm"]; // Edit this line
 	
 	
 	

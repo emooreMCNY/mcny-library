@@ -1,3 +1,14 @@
+Version 6.14, 06/21/16
+-----------------------------
+
+* Hours Change- Static Locations and Today's Hours
+
+
+Version 6.13, 06/09/16
+-----------------------------
+* Added Learning Commons Suggestion form link to Services.
+* Updated Side Images to 60 West Pictures.
+
 
 Version 6.13, 06/09/16
 -----------------------------
