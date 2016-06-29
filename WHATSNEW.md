@@ -1,3 +1,10 @@
+Version 6.15, 06/29/16
+-----------------------------
+
+* Holiday Note/Closure- Static Locations and Today's Hours
+* Added Student Handbook Link to Section 3
+* Changed Section Name
+
 Version 6.14, 06/21/16
 -----------------------------
 
