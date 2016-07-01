@@ -1,3 +1,9 @@
+Version 6.16, 07/01/16
+-----------------------------
+
+* Added images and text for July displays.
+
+
 Version 6.15, 06/29/16
 -----------------------------
 
