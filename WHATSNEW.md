@@ -1,3 +1,10 @@
+Version 6.17, 07/06/16
+-----------------------------
+
+* Added Just Arrived Books for July.
+* Reverted Today's Hours and Static Locations to semester schedule.
+
+
 Version 6.16, 07/01/16
 -----------------------------
 
