@@ -1,3 +1,10 @@
+Version 6.18, 08/10/16
+-----------------------------
+
+* Added Just Arrived Books for August.
+* Added images and text for July displays.
+
+
 Version 6.17, 07/06/16
 -----------------------------
 
