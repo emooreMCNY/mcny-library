@@ -1,15 +1,22 @@
-Version 6.20, 08/12/16
+Version 6.21, 08/12/16
+-----------------------------
+
+* Updated Main Library Display for September.
+* Added Bronx Contact and Location Information.
+
+
+Version 6.20, 09/09/16
+-----------------------------
+* Removed Intersession Notes from Static Locations.
+* Reverted Today's Hours to Semester Hours.
+* Added Just Arrived Books for September.
+
+Version 6.19, 08/12/16
 -----------------------------
 
 * Updated Today's Hours script for Summer-Fall Intersession Schedule.
 * Added Intersession Hours note to static locations.
 
-
-Version 6.19, 09/09/16
------------------------------
-* Removed Intersession Notes from Static Locations.
-* Reverted Today's Hours to Semester Hours.
-* Added Just Arrived Books for September.
 
 
 Version 6.18, 08/10/16
