@@ -142,12 +142,23 @@ hours, location, and account ONLY FOR SMALL SCREENS
         <h2 id="locations-mobile" class="heading">Hours & Location</h2>
         <div class="content">
          <h3><strong>Semester Hours</strong></h3>
-         <p>M-Th: 9AM-10PM<br>Fri: 9AM-8PM<br>Sat: 8AM-7PM</p>
-         <h3><strong>Location</strong></h3>
+         <p>Manhattan: <br> M-Th: 9AM-10PM<br>Fri: 9AM-8PM<br>Sat: 8AM-7PM</p>
+         <p>Bronx: <br> Tues: 9AM-1PM*<br>Wed: 2PM-6PM*<br>Sat: 11AM-1:30PM* <br> 
+         *These hours are subject to change during the course of the semester</p>
+           <h3><strong>Bronx Location</strong></h3>
+            <p>MCNY Library<br>
+           463 East 149th Street<br>
+            Room 225 <br>
+           Bronx, NY 10455</br>
+           MTA Stop: 3rd Ave. & 149th St (2,5)</p>
+           
+         <h3><strong>Manhattan Location</strong></h3>
             <p>MCNY Library<br>
             60 West Street<br>
             7th Floor <br>
             New York, NY 10006</p>
+            
+          
           
         	<div class="bigmap">
 			<img src="http://maps.google.com/maps/api/staticmap?center=60+West+Street,New+York,NY&zoom=16&size=512x512&maptype=roadmap
@@ -162,6 +173,12 @@ hours, location, and account ONLY FOR SMALL SCREENS
 
 <!--<iframe width="260" height="260" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=431+Canal+Street&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.004228,0.005558&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>--> <br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=60+West+Street&amp;aq=&amp;sll=40.7085775,-74.014989&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=60+West+Street,+New+York,+10006&amp;t=m&amp;ll=40.7085775,-74.014989&amp;spn=0.004228,0.005558&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
 <strong>MTA Stops:</strong> Rector Street (1, R), Wall Street (4, 5), Broad Street (J, Z), Chambers Street (ACE) 
+
+<h3><strong>Bronx Location</strong></h3>
+            <p>MCNY Library<br>
+           463 East 149th Street<br>
+            Room 225 <br>
+           Bronx, NY 10455</p>
 
 			</div>
        </div>
@@ -351,7 +368,7 @@ while(x=eval(x));
    
                            
                         <h3>Current Library Displays</h3><br>
-                        <div class="three columns"><a href="#" id="eventone"><img style="cursor: pointer;" src="images/summer_reading_fiction.png" class="events" title="Summer Reading: Fiction" alt="Summer Reading Fiction Display" ></a></div>
+                        <div class="three columns"><a href="#" id="eventone"><img style="cursor: pointer;" src="images/Education_2016.png" class="events" title="Education" alt="Education Display" ></a></div>
                     <div class="three columns"><a href="#" id="eventtwo"><img style="cursor: pointer;" src="images/StayWoke.png" class="events" title="Critical Perspectives in Social Justice: Stay Woke- Police and Community" alt="Critical Perspectives in Social Justice Police and Community Display"></a></div>
                      <div class="three columns"><a href="#" id="eventthree"><img style="cursor: pointer;" src="images/MCNYPublications.png" class="events" title="Faculty, Alumni, and Student Publications" alt="Faculty, Alumni, and Student Publications"></a></div> 
                          <div style="clear:both;"></div>
@@ -373,7 +390,7 @@ while(x=eval(x));
 //////////////////////////////////////////////////
 
 $('#eventone').click(function(){
-$(".eventtext").html("<h3>Summer Reading: Fiction</strong></h3><strong>Where: The Library Exhibit Space </strong><br /> This year's Intersession runs from August 23rd  until September 8th. With no classes held, what will you do with yourself? The Library has the answer! Every August we put together a display of Summer Reading, highlighting  meaty & absorbing books- some new, some classic - that we so rarely have the time to read. This year, we're focusing on fiction, featuring novels by Marlon James, Garth Risk Harris, and many more.   ");
+$(".eventtext").html("<h3>Education: Back To School</strong></h3><strong>Where: The Library Exhibit Space </strong><br /> This month's display is titled Back to School. From the controversies over school reform, to the story of African Americans in higher education, to today's  experiments in alternative education, our books present a cross section of a relentless, complicated, and deeply important issue.  ");
 });
 
 //////////////////////////////////////////////////
@@ -577,7 +594,7 @@ About section, hidden on page load
 
      <h3>Contact Us</h3>
      <p>Email us: <a href="mailto:library@mcny.edu">library@mcny.edu</a></p>
-	<p>Call us:<br>  <strong>Circulation Desk: 212 343 1234 ext. 2001 <br> Reference Desk: 212 343 1234 ext. 2010  </strong></p>
+	<p>Call us:<br>  <strong>Manhattan Circulation Desk: 212 343 1234 ext. 2001 <br> Manhattan Reference Desk: 212 343 1234 ext. 2010  <br> Bronx Library Desk: 212 343 1234 ext. 4021   </strong></p>
 
     <p>Text us:
                         <strong>917-338-4733</strong> </p>
@@ -594,13 +611,21 @@ Locations section, hidden on page load
     <h2 style="cursor: pointer;" id="locations" class="heading">Hours & Location</h2>
     <div class="content">
           <h3><strong>Semester Hours</strong></h3>
-                 <p>M-Th: 9AM-10PM<br>Fri: 9AM-8PM<br>Sat: 8AM-7PM</p>
-                       
-       <h3><strong>Location</strong></h3>
-            <p>Metropolitan College of New York - Library<br>
-           60 West Street<br>
+                <p>Manhattan: <br> M-Th: 9AM-10PM<br>Fri: 9AM-8PM<br>Sat: 8AM-7PM</p>
+         <p>Bronx: <br> Tues: 9AM-1PM*<br>Wed: 2PM-6PM*<br>Sat: 11AM-1:30PM* <br> 
+         *These hours are subject to change during the course of the semester.</p>
+        <h3><strong>Bronx Location</strong></h3>
+            <p>MCNY Library<br>
+           463 East 149th Street<br>
+            Room 225 <br>
+           Bronx, NY 10455<br> MTA Stop: 3rd Ave. & 149th St (2,5)</p>
+         <h3><strong>Manhattan Location</strong></h3>
+            <p>MCNY Library<br>
+            60 West Street<br>
             7th Floor <br>
             New York, NY 10006</p>
+            
+           
          
                          
         	<div class="bigmap">
@@ -616,6 +641,7 @@ Locations section, hidden on page load
 
 <!--<iframe width="260" height="260" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=431+Canal+Street&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.004228,0.005558&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>--> <br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=60+West+Street&amp;aq=&amp;sll=40.7085775,-74.014989&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=60+West+Street,+New+York,+10006&amp;t=m&amp;ll=40.7085775,-74.014989&amp;spn=0.004228,0.005558&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
 <strong>MTA Stops:</strong> Rector Street (1, R), Wall Street (4, 5), Broad Street (J, Z), Chambers Street (ACE)
+ 
 
 			</div>
         </div>  
@@ -649,7 +675,7 @@ footer
     	<div class="sixteen columns footer">
             <div class="footer-links">
 
-      <script type="text/javascript" src="javascripts/todayshours.js"></script> <!--<strong>Mon.-Fri. 9AM-10PM -- Sat. 8AM-7PM -- Sun. CLOSED --> <br />Phone: <a href="tel:2123431234">212-343-1234 x2001/ x 2010</a><br /> Text: <a href="sms:9173384733"> 917-338-4733 <br /> <script type="text/javascript">
+      <script type="text/javascript" src="javascripts/todayshours.js"></script> <!--<strong>Mon.-Fri. 9AM-10PM -- Sat. 8AM-7PM -- Sun. CLOSED --> <br />Phone: <a href="tel:2123431234">212-343-1234 x2001 (MN)/ x 2010 (MN)/ x 4021 (BX)</a><br /> Text: <a href="sms:9173384733"> 917-338-4733 <br /> <script type="text/javascript">
 
 //<![CDATA[
 <!--
