@@ -1,4 +1,13 @@
-Version 6.21, 08/12/16
+Version 6.22, 10/04/16
+-----------------------------
+
+* Updated Main Library Display for October.
+* Added Just Arrived Books for September.
+* Added Columbus Day closure to static locations and Today's Hours.
+
+
+
+Version 6.21, 09/16/16
 -----------------------------
 
 * Updated Main Library Display for September.
