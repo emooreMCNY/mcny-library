@@ -1,3 +1,11 @@
+Version 6.23, 10/11/16
+-----------------------------
+
+* Removed duplicate Bronx address text from mobile Hours and Locations.
+* Reverted Today's Hours to semester hours.
+* Removed Columbus Day closure note from static locations.
+
+
 Version 6.22, 10/04/16
 -----------------------------
 
