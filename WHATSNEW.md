@@ -1,3 +1,10 @@
+Version 6.24, 11/02/16
+-----------------------------
+
+* Added Thanksgiving note to static locations.
+* Added Just Arrived Books for November.
+
+
 Version 6.23, 10/11/16
 -----------------------------
 
@@ -10,7 +17,7 @@ Version 6.22, 10/04/16
 -----------------------------
 
 * Updated Main Library Display for October.
-* Added Just Arrived Books for September.
+* Added Just Arrived Books for October.
 * Added Columbus Day closure to static locations and Today's Hours.
 
 
