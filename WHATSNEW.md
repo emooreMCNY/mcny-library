@@ -1,3 +1,10 @@
+Version 6.25, 11/21/16
+-----------------------------
+
+* Revised Thanksgiving note in static locations.
+* Updated Today's Hours for Thanksgiving Closure.
+* Added Extended Finals Hours note to static locations.
+
 Version 6.24, 11/02/16
 -----------------------------
 
