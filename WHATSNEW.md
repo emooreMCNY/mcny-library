@@ -1,3 +1,10 @@
+Version 6.26, 11/29/16
+-----------------------------
+
+* Removed Thanskgiving Holiday note from static locations.
+* Updated Today's Hours for Extended Finals Fridays
+ 
+
 Version 6.25, 11/21/16
 -----------------------------
 
