@@ -20,11 +20,22 @@
 
 	var open2=["X","9:00am","9:00am","9:00am","9:00am","9:00am","8:00am"]; // Edit this line 
 	
+	var openXmas=["X","9:00am","9:00am","9:00am","9:00am","9:00am","X"]; // Edit this line 
+	
+	var openNYE=["X","X","X","X","X","X","X"]; // Edit this line 
+	
+	var openIntersession=["X","X","9:00am","9:00am","9:00am","9:00am","X"]; 
 	
 // Enter the time your library closes, starting with Sunday. If your library is 
 // closed, enter "X" for the time.
 
 	var close=["X","10:00pm","10:00pm","10:00pm","10:00pm","10:00pm","7:00pm"]; // Edit this line
+	
+	var closeXmas=["X","10:00pm","5:00pm","5:00pm","5:00pm","5:00pm","X"]; // Edit this line
+	
+	var closeNYE=["X","X","X","X","X","X","X"]; // Edit this line
+	
+	var closeIntersession=["X","X","5:00pm","5:00pm","5:00pm","5:00pm","X"]; // Edit this line
 	
 	
 	
