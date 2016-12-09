@@ -47,12 +47,30 @@
 	var day = currentTime.getDay()
 
 	
-		var openTime = open2[day];
+	var intersessionDate= currentTime.getDate();
+ 	
+	if (intersessionDate >=1 && intersessionDate <=7) {
+	var openTime = openIntersession[day];
+	var closeTime = openIntersession[day];
+	createHours(openTime,closeTime);
+	}
+		if (intersessionDate >=8 && intersessionDate <=17) {
+			var openTime = open2[day];
 	var closeTime = close[day];
 	createHours(openTime,closeTime);
 	
-		
-
+		}
+if (intersessionDate >=18 && intersessionDate <=24) {
+	var openTime = openXmas[day];
+	var closeTime = closeXmas[day];
+	createHours(openTime,closeTime);
+	}
+	
+	if (intersessionDate >=25 && intersessionDate <=31) {
+	var openTime = openNYE[day];
+	var closeTime = closeNYE[day];
+	createHours(openTime,closeTime);
+	}
 	
 	function createHours(openTime, closeTime) 
 	{ // Build the hours string
