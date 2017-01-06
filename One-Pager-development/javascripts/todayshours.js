@@ -51,7 +51,7 @@
  	
 	if (intersessionDate >=1 && intersessionDate <=7) {
 	var openTime = openIntersession[day];
-	var closeTime = openIntersession[day];
+	var closeTime = closeIntersession[day];
 	createHours(openTime,closeTime);
 	}
 		if (intersessionDate >=8 && intersessionDate <=17) {
