@@ -1,3 +1,11 @@
+Version 6.28, 01/09/17
+-----------------------------
+
+* Removed Holiday/Intersession Text from Static Locations
+* Updated Static Locations with New Spring 2017 Semester Hours
+* Updated Today's Hours with New Spring 2017 Semester Hours
+
+
 Version 6.27, 12/12/16
 -----------------------------
 

@@ -4,7 +4,7 @@ Adapted from the One-Pager template, created by Influx/Aaron Schmidt/Nate Hill; 
 urban academic library.
 
 
-**Current Version**: 6.27
+**Current Version**: 6.28
 
 If you have questions, please contact me at [emoore@mcny.edu.](mailto:emoore@mcny.edu)  
 Emma Moore  
