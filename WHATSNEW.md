@@ -103,6 +103,13 @@ Version 6.13, 06/09/16
 * Updated Side Images to 60 West Pictures.
 
 
+Version 6.13, 06/09/16
+-----------------------------
+
+* Added Learning Commons Suggestion form link to Services.
+* Updated Side Images to 60 West Pictures.
+
+
 Version 6.12, 05/19/16
 -----------------------------
 
