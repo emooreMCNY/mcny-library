@@ -1,3 +1,11 @@
+Version 6.29, 01/13/17
+-----------------------------
+
+* Added MLK Day Closure Text to Static Locations
+* Updated Today's Hours with MLK Closure
+* Updated Today's Hours with New Friday Hours
+* Updated Static Locations with New Friday Semester Hours
+
 Version 6.28, 01/09/17
 -----------------------------
 
