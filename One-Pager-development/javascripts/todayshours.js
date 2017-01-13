@@ -18,13 +18,13 @@
 //
 // var open=["X","9:00am","9:00am","9:00am","9:00am","9:00am","1:30pm"];
 
-	var open2=["X","9:00am","9:00am","9:00am","9:00am","9:00am","9:00am"]; // Edit this line 
+	var open2=["X","9:00am","9:00am","9:00am","9:00am","10:00am","9:00am"]; // Edit this line 
 	
 		
 // Enter the time your library closes, starting with Sunday. If your library is 
 // closed, enter "X" for the time.
 
-	var close=["X","9:00pm","9:00pm","8:00pm","8:00pm","5:00pm","5:00pm"]; // Edit this line
+	var close=["X","9:00pm","9:00pm","8:00pm","8:00pm","6:00pm","5:00pm"]; // Edit this line
 	
 	
 	
