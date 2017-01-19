@@ -1,3 +1,12 @@
+
+Version 6.30, 01/19/17
+-----------------------------
+
+* Reverted to Semester Hours in Static Locations and Today's Hours
+* Added Display Text and Images for January 2017
+* Added Collection Spotlight for January 2017
+
+
 Version 6.29, 01/13/17
 -----------------------------
 
