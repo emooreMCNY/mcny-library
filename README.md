@@ -4,9 +4,9 @@ Adapted from the One-Pager template, created by Influx/Aaron Schmidt/Nate Hill; 
 urban academic library.
 
 
-**Current Version**: 6.30
+**Current Version**: 6.31
 
-If you have questions, please contact me at [emoore@mcny.edu.](mailto:emoore@mcny.edu)  
-Emma Moore  
-Co-Director/Emerging Technologies Librarian  
+If you have questions, please contact me at [jfrater@mcny.edu.](mailto:jfrater@mcny.edu)  
+Jonathan Frater
+Technical Services Librarian  
 MCNY Library

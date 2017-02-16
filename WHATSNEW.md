@@ -1,4 +1,12 @@
 
+version 6.31, 02/16/17
+-----------------------------
+
+* Updated Today's Hours with president's Day closure
+* Updated Staff Directory (deletions)
+* Added Book Room 744 link to Services
+* Updated e-book link to Proquest E-Book Central
+
 Version 6.30, 01/19/17
 -----------------------------
 
