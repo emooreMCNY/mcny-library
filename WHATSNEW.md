@@ -1,4 +1,11 @@
 
+version 6.32, 02/24/17
+-----------------------------
+
+*Reverted President's Day Today's Hours
+*Reverted President's Day Closed status
+*Changed Kate Adler's status to Library Director
+
 version 6.31, 02/16/17
 -----------------------------
 
