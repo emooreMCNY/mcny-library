@@ -8,15 +8,9 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-<<<<<<< HEAD
-	<title>Niceville Library</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-=======
-	<title>MCNY Library</title>
-	<meta name="description" content="Modified version of One-Pager for Metropolitan College of New York Library">
+	<title>Metropolitan College of New York - Library</title>
+	<meta name="description" content="Home Page for the Library at The Metropolitan College of New York">
 	<meta name="author" content="Nate Hill/Emma Moore">
->>>>>>> Development
 
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -44,21 +38,8 @@
 	<script src="javascripts/tabs.js"></script>
     <script src="javascripts/op-custom.js"></script>
     <script src="javascripts/jquery.flexslider.js"></script>
-<<<<<<< HEAD
-=======
-    <script type="text/javascript" src="/javascripts/todayshours.js"></script>
->>>>>>> Development
-    
-    <!-- Typekit
-	================================================== -->
-   
-<<<<<<< HEAD
-=======
-<script type="text/javascript" src="http://use.typekit.net/mpj5dgq.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  
->>>>>>> Development
-  
+   <script type="text/javascript" src="javascripts/todayshours.js"></script> 
+       
 </head>
 <body>
 
@@ -71,49 +52,70 @@
 	<div class="container">
 		
 				<div class="sixteen columns">
+	
 				
-				
-<<<<<<< HEAD
-                <a href="#"><h1 class="logotype">Niceville Library</h1></a>
+               <a href="http://www.mcny.edu/"><img id="MCNY_header_logo" src="images/MCNY_logo.jpg" title="MCNY Homepage" alt="Metropolitan College of New York Home Page"></a>  <h1 class="logotype">MCNY Library</h1>
+
     			
+
                 <div id="header-links" class="text-right">
                     <strong>
-                    <br><a id="my-account"  class="header-links" href="#"> My Account</a>
-=======
-                <a href="#"><h1 class="logotype">MCNY Library</h1></a>
-    			
-                <div id="header-links" class="text-right">
-                    <strong>
-                    <br><a id="my-account"  class="header-links" href="http://libguides.mcny.edu/circguide"> My Account</a>
->>>>>>> Development
-                    <br><a id="locations"  class="header-links" href="#">Hours & Location</a>
-                    <br><a id="about"  class="header-links" href="#">About</a>
-                    </strong>
+
+                    <br><a style="cursor: pointer;" id="about"  class="header-links" title="Staff Directory" href="#">About Us</a>
+
+                             <div class="needs-js">Chat requires JavaScript.</div>
+
+<div class="libraryh3lp" jid="mcny-library-website@chat.libraryh3lp.com" style="display: none;">
+  <a href="#" 
+   onclick="window.open('https://libraryh3lp.com/chat/mcny-library-website@chat.libraryh3lp.com?skin=9999',
+   'chat', 'resizable=1,width=320,height=200'); return false;">
+    Chat Now
+  </a>
+</div>
+
+<div class="libraryh3lp" style="display: none;">
+ <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=69){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")521,\\\"K_UDNU310\\\\FT420\\\\3E010\\\\n\\\\300\\\\410\\"+
+"\\%a|100\\\\/610\\\\z516;020\\\\v710\\\\o4<;'9li620\\\\''.26!6320\\\\a9M_O^" +
+"Rv400\\\\LTS_VFA610\\\\EKK300\\\\UEIDh^TDVAKM230\\\\pjquzw;D*ppf{2p,-&c`n~`" +
+"zp(qjfotc120\\\\130\\\\\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmor" +
+"f.gnirtS=+o;721=%y;i=+y)521==i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i " +
+"rav{)y,x(f noitcnuf\")"                                                      ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+</div>
+                     <a style="cursor: pointer;" id="locations"  class="header-links" href="#">Hours & Location</a>
+                    <br><a id="my-account"  class="header-links" href="http://libguides.mcny.edu/circguide" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'Policies']);" > Library Handbook</a>
+                   
+                    
+           
+                   </strong>
     			</div>
-<<<<<<< HEAD
-                </div>
-=======
+
+              
+
       </div>
->>>>>>> Development
+
 			
             	
                 
             	<div id="page-content">
                 
+
                 <!--this section has your search box.  you'll want to connect this to your ILS.-->
-<<<<<<< HEAD
-                <form id-"searchform">
+                <form id-"searchform"="" method="GET" action="http://mcny.on.worldcat.org/external-search" >
                 <div class="fourteen columns">
-              <input id="searchbox" type="text" value="search for books and more..." />
-                    </div>
-=======
-                <form id-"searchform" method="GET" action="http://mcnylibrary.summon.serialssolutions.com/search">
-                <div class="fourteen columns">
-              <input id="searchbox" type="text" name="s.q" value="search for books and journal articles" />
+              <input  id="searchbox" type="search" name="queryString" value="search for books and journal articles" title="MCNY Library Search" >
                   </div>
->>>>>>> Development
+
                     <div class="two columns">
-                    <input type="submit" id="submit" value="search"/>
+                    <input id="submit" value="search" title="search for books and journal articles" type="submit">
                     </div>
                 </form>
                 
@@ -126,7 +128,7 @@
 RESET
 ----------------------------------------------------->
 <div class="content-section"> 
-        <h2 id="reset" class="heading">&nbsp;&nbsp;Go Back to the Main Menu</h2>
+        <h2 style="cursor: pointer; display: none;" id="reset" class="heading">&nbsp;&nbsp;Go Back to the Main Menu</h2>
 </div> 
     
     
@@ -137,63 +139,51 @@ hours, location, and account ONLY FOR SMALL SCREENS
         
     <div class="content-section">
       
-        <h2 id="locations-mobile" class="heading">Hours - Location - Contact</h2>
+        <h2 id="locations-mobile" class="heading">Hours & Location</h2>
         <div class="content">
-<<<<<<< HEAD
-       <h3>Niceville Library</a></h3>
-            <p>143 Lucky Hi-way<br />
-            Niceville, USA</p>
-            <p>M-F: 10-9<br />S&S: 12-9</p>
-            <p>555-5555<br />hello@nicevillelibrary.org</p>
+         <h3><strong>Semester Hours</strong></h3>
+         <p>Manhattan: <br> M-Tu: 9AM-9PM
+         <br>W-Th: 9AM-8PM
+         <br>Fri: 10AM-6PM
+         <br>Sat: 9AM-5PM</p>
+         <p>Bronx: <br> M: 2PM-7PM <br> Tu-W: 11AM-7PM<br>Th: 2PM-6PM<br>Sat: 9AM-5PM <br> 
+         *These hours are subject to change during the course of the semester*</p>
+         
+           <h3><strong>Bronx Location</strong></h3>
+            <p>MCNY Library<br>
+           463 East 149th Street<br>
+            Room 225 <br>
+           Bronx, NY 10455</br>
+           MTA Stop: 3rd Ave. & 149th St (2,5)</p>
+           
+         <h3><strong>Manhattan Location</strong></h3>
+            <p>MCNY Library<br>
+            60 West Street<br>
+            7th Floor <br>
+            New York, NY 10006</p>
+            
+          
+          
         	<div class="bigmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=14&size=512x512&maptype=roadmap
-&markers=color:red|label:A|40.702147,-74.015794&markers=color:red|label:B|40.711614,-74.012318
-&markers=color:red|color:red|label:C|40.718217,-73.998284&sensor=false">
-			</div>
+			<img src="http://maps.google.com/maps/api/staticmap?center=60+West+Street,New+York,NY&zoom=16&size=512x512&maptype=roadmap
+&markers=color:red|color:red|label:A|40.7085775,-74.014989&sensor=false" alt="Map of Metropolitan College of New York Manhattan Campus">
+
+<!-- <iframe width="512" height="512" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=431+Canal+St,+New+York,+NY&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.011386,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.008326,0.010965&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small>--> 
+<br /><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=60+West+Street,+New+York,+NY&amp;aq=&amp;sll=40.7085775,-74.014989&amp;sspn=0.011386,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=60+West+Street,+New+York,+10006&amp;t=m&amp;ll=40.7085775,-74.014989&amp;spn=0.008326,0.010965&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
+<strong>MTA Stops:</strong> Rector Street (1, R), Wall Street (4, 5), Broad Street (J, Z), Chambers Street (ACE) 			</div>
             <div class="smallmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=14&size=260x260&maptype=roadmap
-&markers=color:red|label:A|40.702147,-74.015794&markers=color:red|label:B|40.711614,-74.012318
-&markers=color:red|color:red|label:C|40.718217,-73.998284&sensor=false">
+			<img src="http://maps.google.com/maps/api/staticmap?center=60+West+Street,New+York,NY&zoom=16&size=260x260&maptype=roadmap
+&markers=color:red|color:red|label:A|40.7085775,-74.014989&sensor=false" alt="Map of Metropolitan College of New York Manhattan Campus" >
+
+<!--<iframe width="260" height="260" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=431+Canal+Street&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.004228,0.005558&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>--> <br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=60+West+Street&amp;aq=&amp;sll=40.7085775,-74.014989&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=60+West+Street,+New+York,+10006&amp;t=m&amp;ll=40.7085775,-74.014989&amp;spn=0.004228,0.005558&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
+<strong>MTA Stops:</strong> Rector Street (1, R), Wall Street (4, 5), Broad Street (J, Z), Chambers Street (ACE) 
+
 			</div>
-       
-        </div> 
-    </div>
-    
-    <div class="content-section"> 
-        <h2 id="my-account-mobile" class="heading">My Account</h2>
-=======
-        <h3><strong>MCNY Library</strong></h3>
-            <p>431 Canal Street<br />
-            12th Floor <br />
-            New York, NY 10013</p>
-           <p>M-F: 9AM-10PM<br />Sat: 8AM-7PM</p>
-          <p>212-343-1234 x2001<br /><a href="mailto:library@mcny.edu">library@mcny.edu</a></p>
-        	<div class="bigmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=431+Canal+Street,New+York,NY&zoom=16&size=509x512&maptype=roadmap
-&markers=color:red|color:red|label:A|40.723091,-74.006896&sensor=false"> 
-<!-- <iframe width="512" height="512" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=431+Canal+Street&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.004163,0.005504&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small>--><br />
-<a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=431+Canal+Street&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.004163,0.005504&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
-<strong>MTA Stops:</strong> Canal Street (1, ACE)
-			</div>
-            <div class="smallmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=431+Canal+Street,New+York,NY&zoom=16&size=260x260&maptype=roadmap
-&markers=color:red|color:red|label:A|40.723091,-74.006896&sensor=false"> 
-<!-- <iframe width="260" height="260" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=431+Canal+St,+New+York,+NY&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.011386,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.004228,0.0056&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small>--><br />
-<a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=431+Canal+St,+New+York,+NY&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.011386,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.004228,0.0056&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
-<strong>MTA Stops:</strong> Canal Street (1, ACE) </div>
        </div>
-        
-    </div>
+   </div>
     
-    <div class="content-section"> 
-        <h2 id="my-account-mobile" class="heading"><a href="https://itunes.apple.com/app/bookmyne/id350625461
-        ">My Account</a></h2>
-         <div class="content">
-        <p><a id="my-account" href="http://libguides.mcny.edu/circguide"> My Account</a></p>
-</div>
->>>>>>> Development
-    </div> 
-</div>
+    </div>
+
 
 
 <!----------------------------------------------------
@@ -202,51 +192,32 @@ this is the first of the eight toggling menu sections.
                     <div id="section-one" class="content-section">
 
 
-<<<<<<< HEAD
-                    <h2 id="heading-one" class="heading first">Books & More</h2> 
+                    <h2 id="heading-one" class="heading first">Research: Books, Articles, and Journals</h2> 
                     	<div class="content">
-                        <h3>New Books</h3>
-                       
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780062093639/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312531188/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312536220/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312381790/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/index.aspx?isbn=9780312628093/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9781608197729/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780374299019/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <div style="clear:both;"></div>
+                        	
+                       <h3>Find Books</h3>
+            			<p> To search for print books, type a title, an author's name, or other keywords into the library search box. 
+                        </p> <p> To search for eBooks, log in to <a href="https://ezproxy.mcny.edu/login?url=http://ebookcentral.proquest.com/lib/mcny-ebooks" onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'EBooks']);" >read them online </a>; or <a href="http://libguides.mcny.edu/mobilelibrary" onClick="_gaq.push(['_trackEvent', 'Resources', 'Click', 'EBooks']);">check them out</a> on your phone or tablet.</p> 
+                        <h3> Find Articles </h3>
+                		<p><a href="http://libguides.mcny.edu/MCNY_library_resources/findarticles"onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'Articles']);"><strong>Databases by Subject</strong></a><br>
+                		Search for human services articles, business analysis, education data, and more.
+                		</p>
+                        <p><a href="http://libguides.mcny.edu/az.php"onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'AtoZ']);"><strong>Databases A-Z</strong></a><br>
+                		Got a go-to database? Find it by name.
+                		</p>
+                                         		                   
+  <h3> Find Journals</h3>
+                        <p>
+<a href="https://mcny.on.worldcat.org/atoztitles/search#journal" onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'Journals']);"><strong>Electronic Journal List </strong>
+</a><br>
+Search or browse an A-Z list of the Library's electronic journals.</p>
+                     
                         
-                    		<h3 style="margin-bottom:5px;">Book of the Day</h3> 
-							<a href="#" id="fictionone"><img src="http://syndetics.com/index.aspx?isbn=9780312628093/SC.GIF&client=sjose" class="titles"></a>
-            				 <p><strong><a href="">State of Wonder</a> by Anne Patchett</strong><br />Dr. Marina Singh, a research scientist with a Minnesota pharmaceutical company, is sent to Brazil to track down her former mentor, Dr. Annick Swenson, who seems to have all but disappeared in the Amazon while working on what is destined to be an extremely valuable new drug.                             <div style="clear:both;"></div>            
-=======
-                    <h2 id="heading-one" class="heading first">New Acquisitions</h2> 
-                    	<div class="content">
-                        <h3>Just Arrived</h3>
-                       
-<a href="#"><a href="http://audr.sirsi.net/uhtbin/cgisirsi/x/0/0/5/?searchdata1=9781932792744
-"><img src="images/7104862-M.jpg" width="66" height="100" class="bookshelf"></a></a>
-                                               <a href="#"> <a href="http://audr.sirsi.net/uhtbin/cgisirsi/x/0/0/5/?searchdata1=9780679643890
-"><img src="images/9780679643890
--M.jpg" width="66" height="100" class="bookshelf"></a></a>
-                       <a href="#"> <a href="http://audr.sirsi.net/uhtbin/cgisirsi/x/0/0/5/?searchdata1=9780814788073
-"><img src="images/612512-M.jpg" width="66" height="100" class="bookshelf"></a></a>
-<a href="#"><a href="http://audr.sirsi.net/uhtbin/cgisirsi/x/0/0/5/?searchdata1=9780300161175
-"><img src="images/6747305-M.jpg" width="66" height="100" class="bookshelf"></a></a>
-                      <a href="#"><a href="http://audr.sirsi.net/uhtbin/cgisirsi/x/0/0/5/?searchdata1=9780743274029
-"><img src="images/474903-M.jpg" width="66" height="100" class="bookshelf"></a></a> 
 
-<a href="#"><a href="http://audr.sirsi.net/uhtbin/cgisirsi/x/0/0/5/?searchdata1=9780802142924
-"><img src="images/569523-M.jpg" width="66" height="100" class="bookshelf"></a></a>
-<a href="#"><a href="http://audr.sirsi.net/uhtbin/cgisirsi/x/0/0/5/?searchdata1=9781594200656
-"><img src="images/872287-M.jpg" width="66" height="100" class="bookshelf"></a></a>                         <div style="clear:both;"></div>
-                        
-                    		<h3 style="margin-bottom:5px;">Our Book of the Week</h3>
-							<a href="http://audr.sirsi.net/uhtbin/cgisirsi/x/0/0/5/?searchdata1=9781594200717
-"><img src="images/872294-M.jpg" width="66" height="100" class="titles"></a>
-           				  <p><strong><a href="http://audr.sirsi.net/uhtbin/cgisirsi/x/0/0/5/?searchdata1=9781594200717">The works: anatomy of a city</a> by Kate Ascher</strong><br /> Writing from her experience working for the New York Economic Development Corporation, Kate Ascher tells you everything you ever wanted to know (and probably some things you didn't) about how to keep a city running.                     <div style="clear:both;"></div>
+
+
                                     
->>>>>>> Development
+
                         </div>
                     </div>
 
@@ -256,64 +227,33 @@ this is the second of the eight toggling menu sections.
 
                     <div id="section-two" class="content-section">
 
-<<<<<<< HEAD
-                    <h2 id="heading-two" class="heading">Upcoming Events</h2> 
-                    	<div class="content">
-                        <div class="three columns"><a href="#" id="eventone"><img src="images/event1.png" class="events"></a></div>
-                        <div class="three columns"><a href="#" id="eventtwo"><img src="images/event2.png" class="events"></a></div>
-                        <div class="three columns"><a href="#" id="eventthree"><img src="images/event3.png" class="events"></a></div>
-=======
-                    <h2 id="heading-two" class="heading">Collection Spotlight</h2> 
-                    	<div class="content">
-                        <div class="three columns"><a href="#" id="eventone"><img src="images/NationalPoetryMonth.png" class="events"></a></div>
-                     <div class="three columns"><a href="#" id="eventtwo"><img src="images/GraphicNovels.png" class="events" alt="original image by Raiden_Fangirl on Flickr"></a></div>
-                         <div class="three columns"><a href="#" id="eventthree"><img src="images/Periodicals.png" class="events"></a></div> 
->>>>>>> Development
-                         <div style="clear:both;"></div>
-                        <div class="eventtext"> 
-                       
-                        </div>
+
+                    <h2 id="heading-two" class="heading">Research: Facts, Stats, and Business Data</h2> 
+                    	<div class="content"> 
+                        <h3> Get Background Information
+                        </h3>						
+                        <p>
+                		<a href="http://libguides.mcny.edu/MCNY_library_resources/backgroundinformation" onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'Background']);"><strong>Electronic Reference Sources</strong></a><br>
+                		Search reference works such as <a href="https://ezproxy.mcny.edu/login?url=http://www.credoreference.com/home.do" onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'Credo']);">Credo Reference</a> online.
+                		</p>
+                        <h3>Find Data </h3>
+              			<p>
+                        <strong>Demographic Data</strong><br>
+                        <a href="http://libguides.mcny.edu/MCNY_library_resources/statisticssources" onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'Stats']);" ><strong>Statistics Sources</strong></a><br>
+                        Use statistical data from federal, state, and city sources to draw an accurate picture of the communities you serve.<br><br>
+                        
+                        <strong>Industry and Company Data</strong><br>
+                		 Get facts and figures on dozens of American industries with reports from  <a href="https://ezproxy.mcny.edu/login?url=http://clients1.ibisworld.com" onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'IBISWorld']);">IBISWorld</a>; or research specific companies with profiles from <a href="https://ezproxy.mcny.edu/login?url=http://www.mergentonline.com/Hoovers" onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'Hoovers']);">Hoover's</a>.
+                         
+                		</p>
+                         <h3> Explore Research Guides</h3>
+<p>
+<a href="http://libguides.mcny.edu/MCNY_library_resources/researchguides" onClick="_gaq.push(['_trackEvent', 'Research', 'Click', 'Guides']);"><strong>Research Guides</strong></a><br>
+Get helpful hints on conducting overall research in specific subjects, as well as practical information on using the different facets of the library.
                         </div>
                     </div>
 
-<script>
-//////////////////////////////////////////////////
-//replace text that matches event image ONE here//
-//////////////////////////////////////////////////
 
-$('#eventone').click(function(){
-<<<<<<< HEAD
-$(".eventtext").html("<h3><strong>Library Ferris Wheel</strong></h3><strong>When: April 11th, all day</strong><br />Did you know that the first Ferris Wheel was invented by George Washington Gale Ferris, Jr? No problem. Come to the library and enjoy his invention. ");
-=======
-$(".eventtext").html("<h3><strong>National Poetry Month</strong></h3><strong>Where: The Library Exhibit Space </strong><br /> Honoring one of the oldest forms of art; from short haikus to long epics, you can immerse yourself in verse at the MCNY Library. ");
->>>>>>> Development
-});
-
-//////////////////////////////////////////////////
-//replace text that matches event image TWO here//
-//////////////////////////////////////////////////
-
-$('#eventtwo').click(function(){
-<<<<<<< HEAD
-$(".eventtext").html("<h3><strong>Step to the Mic</strong></h3><strong>When: April 20th, 7:30pm</strong><br />Another library poetry slam! Are these even popular?");
-=======
-$(".eventtext").html("<h3><strong>Graphic Novels</strong></h3><strong>Where: The New Books Section</strong><br />Featuring Maus, 'The Dark Night Returns', plus works by Allison Bechdel, Joe Sacco, and others.");
->>>>>>> Development
-});
-
-//////////////////////////////////////////////////
-//replace text that matches event image THREE here//
-//////////////////////////////////////////////////
-
-$('#eventthree').click(function(){
-<<<<<<< HEAD
-$(".eventtext").html("<h3><strong>Niceville Reads War & Peace</strong></h3><strong>When: Most of 2012.</strong><br />You voted and we listened. Everyone is reading War & Peace and we're hosting some programs about it.");
-=======
-$(".eventtext").html("<h3><strong>Popular Magazines</strong></h3><strong>Where: The Library Entrance.</strong><br /> From The Atlantic to Wired, and many more in between. Come to the library for news, analysis, and entertainment.");
->>>>>>> Development
-});
-
-</script>
 
 <!----------------------------------------------------
 this is the third of the eight toggling menu sections.
@@ -321,55 +261,27 @@ this is the third of the eight toggling menu sections.
                     
                     <div id="section-three" class="content-section">
 
-<<<<<<< HEAD
-                    <h2 id="heading-three" class="heading">For Kids</h2> 
-                    	<div class="content">
-						<div id="kidstext">
-						<h3>Recommended Stuff</h3>
-            			<a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780062093639/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312531188/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312536220/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312381790/SC.GIF&client=sjose" class="bookshelf"></a>
-                        </div>
-                        <h3>Events</h3>
-            			<p><strong>Face painting</strong> - April 28th, 1:00pm<br />Kids love doing this. It's weird!</p>
-            			<p><strong>Storytime for Infants</strong> - Every Wednesday, 10:00am<br />Ages 0-2</p>
-            			<p><strong>Storytime for Toddlers</strong> - Every Thursday, 10:00am<br />Ages 2-6</p>
-            			<p><strong>Storytime for All Kids</strong> - Every Friday, 10:00am<br />Ages 0-10</p>
-       				
-            
-        				                    </div>
-=======
                     
-                    <h2 id="heading-three" class="heading">How Do I...</h2> 
+                    <h2 style="cursor: pointer;" id="heading-three" class="heading">Handbooks, Archives, Videos</h2> 
                     	<div class="content">
-                    	<!-- <h3>Who can use the MCNY Library?</h3>
-            			<p>MCNY students, MCNY faculty, and MCNY staff.</p>
+                        <h3>I Want...</h3>
 
-                    	<h3>What do you need to take out a book?</h3>
-            			<div class="cardtext">           
-						<p>A current MCNY student or faculty/staff ID.</p>           
-      					</div>
-            			<h3>How do I register?</h3>
-            			<p>Bring your ID into the library. Ask a staff member for a registration form, and fill it out. That's it!</p> -->
-            			<h3>Use MCNY Library e-Books?</h3>
-            			<p> Log in and <a href="https://ezproxy.mcny.edu/login?url=http://site.ebrary.com/lib/mcny">read ebooks</a>; or <a href="http://libguides.mcny.edu/mobilelibrary">check them out</a> on your phone or tablet.</p>
-                        <h3>Find the Purpose Handbooks?</h3>
-						<p>They are kept up to date on the <a href="http://www.mcny.edu/library/libph.php">library website</a>.
-                       <!-- <h3>Print On The Library Printers From My Laptop? </h3>
-                        <p> <a href="http://www.kyoceradocumentsolutions.co.uk/index/kyoware_solutions/output_management.html">Download</a> software from Kyocera, either for <a href="http://www.mcny.edu/pdfs/library/PC_Wireless_Printing_Instruction.pdf">Windows</a> or <a href="http://www.mcny.edu/pdfs/library/Mac_Wireless_Printing_Instruction.pdf">Mac</a>. 
- </p> -->
-<h3>Get Immediate Help?</h3>
-<p>  Librarians are  <a href="http://libguides.mcny.edu/content.php?pid=321591&sid=2632760">online </a> while the library is open.</p>
+                        <br>
+                    	<h3>Purpose Handbooks</h3>
+						<p>Read them <a href="http://www.mcny.edu/library/libph.php" onClick="_gaq.push(['_trackEvent', 'Resources', 'Click', 'Purpose Handbooks']);"> online</a> or print them out.
+                      </p>
+                      <h3>Student Handbook</h3>
+                      <p>Need to check on a College policy or procedure? The <a href="http://www.mcny.edu/pdfs/studentservices/MCNY_Student_Handbook.pdf" onClick="_gaq.push(['_trackEvent', 'Resources', 'Click', 'Student Handbook']);"> student handbook </a> is the place to look.</p>
                         
-                                           
-           
-                            
-						
-       				
-            
+                        <h3> Audrey Cohen and The History of MCNY</h3>
+            			<p> Explore  <a href="http://libguides.mcny.edu/archive" onClick="_gaq.push(['_trackEvent', 'Resources', 'Click', 'Archive']);">the writings of MCNY's founder </a>, or contact us about using the college archive.</p> 
+    					 <h3 class="webonly">Films On Demand</h3>
+                       <p class="webonly"> Stream the educational video of <a href="https://ezproxy.mcny.edu/login?url=http://digital.films.com/portalplaylists.aspx?cid=1637&aid=9415" onClick="_gaq.push(['_trackEvent', 'Resources', 'Click', 'Films']);">Films On Demand</a> to any computer.</p>
+                        <h3 class="webonly">Need Something Else?</h3>
+<p class="webonly"> Chat with librarians <a href="http://libguides.mcny.edu/chat/">online </a> while the library is open.</p>
+                        
+                             
                       </div>
->>>>>>> Development
                     </div>
 
 
@@ -380,47 +292,122 @@ this is the fourth of the eight toggling menu sections.
                     
                     <div id="section-four" class="content-section">
 
-<<<<<<< HEAD
-                    <h2 id="heading-four" class="heading">For Teens</h2> 
-                    	<div class="content">
-                    	
-						<div id="teenstext">
-						<h3>Recommended Stuff</h3>
-            			<a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780062093639/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312531188/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312536220/SC.GIF&client=sjose" class="bookshelf"></a>
-                        <a href="#"><img src="http://syndetics.com/hw7.pl?isbn=9780312381790/SC.GIF&client=sjose" class="bookshelf"></a>
-                        </div>
-                        <h3>Events</h3>
-            			<p><strong>Movie & Popcorn: The Hunger Games</strong> - April 13th, 7:30pm<br />You loved the book, now see the film!</p>
-            			<p><strong>Teen Advisory Board Meeting</strong> - April 19th, 7:00pm<br />Interested in helping us plan teen services at the library? Email <a href="">heyteenager@nicevillelibrary.org</a> for more info.</p>
 
-            	
-            
-        				                    </div>
-=======
-                    <h2 id="heading-four" class="heading">For Faculty</h2> 
-                    	<div class="content">
-             <a id="libinstruction"></a>
-               <h3><strong>Library Instruction Sessions</strong></h3> 
-           
-                <p> <a href="mailto:library@mcny.edu?subject=Instruction Session">Email</a> to set up an in-class instruction session.
-                 
-                                  </p>              
-                 
-                
-             
-			   <h3><strong>Faculty Orientation and Research Consultations</strong></h3>
-                      <p>  <a href="mailto:library@mcny.edu?subject=Researc Consultation">Email</a> for a personal orientation or research consultation. </a> 
-                          
-                          
-                          
-                          
-                        </p>
-                   	  </div>
->>>>>>> Development
+                   <h2 style="cursor: pointer;" id="heading-four" title="New Books and Library Exhibits" class="heading">Collection Spotlight</h2> 
+
+                    	<div style="display: none;" class="content">
+                        <h3>Just Arrived</h3>
+                       
+
+
+<a href="#"><a href="https://mcny.on.worldcat.org/oclc/930364205?databaseList=1461,2264,2483,2570,3384,1271,2229,3548,233,1721,2513,2237,203,2476,1708,638,1934" title="Jackson, 1964 : and other dispatches from fifty years of reporting on race in America"><img src="images/7894794-M.jpg" width="66" height="100" class="bookshelf" alt="Book:Jackson, 1964 : and other dispatches from fifty years of reporting on race in America" id="http://covers.openlibrary.org/b/id/7894794-M.jpg" ></a></a>
+<a href="#"><a href="https://mcny.on.worldcat.org/oclc/906234446?databaseList=1461,2264,2483,2570,3384,1271,2229,3548,233,1721,2513,2237,203,2476,1708,638,1934" title="Revolution within the revolution : women and gender politics in Cuba, 1952-1962"><img src="images/7894796-M.jpg" width="66" height="100" class="bookshelf" alt=" Book: Revolution within the revolution : women and gender politics in Cuba, 1952-1962" id="http://covers.openlibrary.org/b/id/7894796-M.jpg" ></a></a>
+<a href="#"><a href="https://mcny.on.worldcat.org/oclc/926743450?databaseList=1461,2264,2483,2570,3384,1271,2229,3548,233,1721,2513,2237,203,2476,1708,638,1934" title="Critical trauma studies : understanding violence, conflict, and memory in everyday life" ><img src="images/7894797-M.jpg" width="66" height="100" class="bookshelf" alt="Book: Critical trauma studies : understanding violence, conflict, and memory in everyday life" id="http://covers.openlibrary.org/b/id/7894797-M.jpg" ></a></a>
+<a href="#"><a href="https://mcny.on.worldcat.org/oclc/919041802?databaseList=1461,2264,2483,2570,3384,1271,2229,3548,233,1721,2513,2237,203,2476,1708,638,1934" title="No mercy here : gender, punishment, and the making of Jim Crow modernity" class="webonly" ><img src="images/7894798-M.jpg" width="66" height="100" class="bookshelf" alt="Book: No mercy here : gender, punishment, and the making of Jim Crow modernity"  id="http://covers.openlibrary.org/b/id/7894798-M.jpg" ></a></a>
+<a href="#"  ><a href="https://mcny.on.worldcat.org/oclc/934382661?databaseList=1461,2264,2483,2570,3384,1271,2229,3548,233,1721,2513,2237,203,2476,1708,638,1934" title="Sex workers, psychics, and numbers runners : black women in New York City's underground economy" class="webonly" ><img src="images/7894799-M.jpg" width="66" height="100" class="bookshelf" alt="Book: Sex workers, psychics, and numbers runners : black women in New York City's underground economy" id="http://covers.openlibrary.org/b/id/7894799-M.jpg" ></a></a>
+<a href="#" ><a href="https://mcny.on.worldcat.org/oclc/932385677?databaseList=1461,2264,2483,2570,3384,1271,2229,3548,233,1721,2513,2237,203,2476,1708,638,1934" title="Against Everything : Essays" class="webonly"><img src="images/7894800-M.jpg" width="66" height="100" class="bookshelf" alt="Book: Against Everything : Essays"  id="http://covers.openlibrary.org/b/id/7894800-M.jpg" ></a></a>
+<div class="webonly"><script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!29{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(6)11\\\\,T\\\"V^IE0T01\\\\\\\\[GGX0801\\\\\\\\\\\\r6\\\\01\\\\\\\\\\\"\\" +
+"\\\\\\\\\\77\\\\17\\\\03\\\\\\\\(}?(),4200\\\\\\\\0w01\\\\\\\\7n$=:&nm27\\\\"+
+"0!\\\\'&05\\\\0f\\\\d$175$[N6o03\\\\\\\\7g00\\\\\\\\TM6V02\\\\\\\\27\\\\0h\\"+
+"\\^UXT\\\\\\\\\\\\\\\\BEIC10\\\\0u\\\\25\\\\0T\\\\DU@H02\\\\03\\\\00\\\\\\\\"+
+"/|?.^$n=\\\\\\\\25\\\\03\\\\03\\\\\\\\22\\\\07\\\\03\\\\\\\\21\\\\0X\\\\*UB" +
+"C.Q0L03\\\\\\\\33\\\\0n\\\\\\\\\\\\04\\\\03\\\\03\\\\\\\\HK7501\\\\\\\\\\\\" +
+"t6\\\\02\\\\\\\\1K00\\\\\\\\04\\\\03\\\\00\\\\\\\\14\\\\0)\\\\0,523/1*\\\"\\"+
+"\\\\\\\\\\6'25\\\\0|\\\\4!.7$#7n02\\\\\\\\*w4:\\\\f\\\\\\\")\\\\~*77\\\\1b\\"+
+"\\UcSR2y03\\\\\\\\0x03\\\\\\\\ECAPWBrc\\\\\\\\M[FH_I7Z02\\\\\\\\BRn@\\\\\\\\"+
+"LZMBg_}oxitpy-xasz2|3Sikbyi)$;j-goiu14\\\\0n\\\\\\\\\\\\7R01\\\\\\\\24\\\\0" +
+"4\\\\03\\\\\\\\25\\\\02\\\\00\\\\\\\\25\\\\02\\\\03\\\\\\\\20\\\\0\\\\\\\\(" +
+"\\\"}fo;n uret}r);+)y+^(i)t(eAodrCha.c(xdeCoarChomfrg.intr=So+7;12%=;y=2y*)" +
+")+y16(1i>f({i+)i+l;i<0;i=r(foh;gten.l=x,l\\\"\\\\\\\"\\\\o=i,r va){,y(x fon" +
+"tincfu)\\\"\")"                                                              ;
+while(x=eval(x));
+//-->
+//]]>
+</script></div>
+
+                        <div style="clear:both;"></div>
+                        
+                    		<h3 style="margin-bottom:5px;">Spotlight Book</h3>
+							
+                        <a href="#"><a href="https://mcny.on.worldcat.org/oclc/950004289?databaseList=1461,2264,2483,2570,3384,1271,2229,3548,233,1721,2513,2237,203,2476,1708,638,1934" title="Hidden figures : the American dream and the untold story of the Black women mathematicians who helped win the space race"><img src="images/7894801-M.jpg" width="66" height="100" class="bookshelf" alt= "Book: Hidden figures : the American dream and the untold story of the Black women mathematicians who helped win the space race" id="http://covers.openlibrary.org/b/id/7894801-M.jpg"></a></a><p><strong><a href="https://mcny.on.worldcat.org/oclc/950004289?databaseList=1461,2264,2483,2570,3384,1271,2229,3548,233,1721,2513,2237,203,2476,1708,638,1934">Hidden figures : the American dream and the untold story of the Black women mathematicians who helped win the space race</a> by Margot Lee Shetterly </strong><br /> Dive into the book that has now become the top movie in the nation in January 2017! This fascinating and long overdue history tells the story of the African-American women who worked for the Langley Aeronautical Laboratory, in the early days of the space race. Though the West Computing Group were segregated from and paid much less than their white counterparts, their high quality work was crucial to the orbital missions of John Glenn and his fellow astronauts. If you loved the performances of Taraji Henson, Octavia Spencer, and Janelle Monae, grab the real story. Truth is always stranger, sadder, but often more inspiring than fiction.
+                         <div id="request-mobile"> <h3 style="margin-bottom:5px;"> Want Something Else?</h3>  <script type="text/javascript">
+					      
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!29{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(6)11\\\\,T\\\"V^IE0T01\\\\\\\\[GGX0801\\\\\\\\\\\\r6\\\\01\\\\\\\\\\\"\\" +
+"\\\\\\\\\\77\\\\17\\\\03\\\\\\\\(}?(),4200\\\\\\\\0w01\\\\\\\\7n$=:&nm27\\\\"+
+"0!\\\\'&05\\\\0f\\\\d$175$[N6o03\\\\\\\\7g00\\\\\\\\TM6V02\\\\\\\\27\\\\0h\\"+
+"\\^UXT\\\\\\\\\\\\\\\\BEIC10\\\\0u\\\\25\\\\0T\\\\DU@H02\\\\03\\\\00\\\\\\\\"+
+"/|?.^$n=\\\\\\\\25\\\\03\\\\03\\\\\\\\22\\\\07\\\\03\\\\\\\\21\\\\0X\\\\*UB" +
+"C.Q0L03\\\\\\\\33\\\\0n\\\\\\\\\\\\04\\\\03\\\\03\\\\\\\\HK7501\\\\\\\\\\\\" +
+"t6\\\\02\\\\\\\\1K00\\\\\\\\04\\\\03\\\\00\\\\\\\\14\\\\0)\\\\0,523/1*\\\"\\"+
+"\\\\\\\\\\6'25\\\\0|\\\\4!.7$#7n02\\\\\\\\*w4:\\\\f\\\\\\\")\\\\~*77\\\\1b\\"+
+"\\UcSR2y03\\\\\\\\0x03\\\\\\\\ECAPWBrc\\\\\\\\M[FH_I7Z02\\\\\\\\BRn@\\\\\\\\"+
+"LZMBg_}oxitpy-xasz2|3Sikbyi)$;j-goiu14\\\\0n\\\\\\\\\\\\7R01\\\\\\\\24\\\\0" +
+"4\\\\03\\\\\\\\25\\\\02\\\\00\\\\\\\\25\\\\02\\\\03\\\\\\\\20\\\\0\\\\\\\\(" +
+"\\\"}fo;n uret}r);+)y+^(i)t(eAodrCha.c(xdeCoarChomfrg.intr=So+7;12%=;y=2y*)" +
+")+y16(1i>f({i+)i+l;i<0;i=r(foh;gten.l=x,l\\\"\\\\\\\"\\\\o=i,r va){,y(x fon" +
+"tincfu)\\\"\")"                                                              ;
+while(x=eval(x));
+//-->
+//]]>
+</script> </div>   
+   
+                           
+                        <h3>Current Library Displays</h3><br>
+                        <div class="three columns"><a href="#" id="eventone"><img style="cursor: pointer;" src="images/Black Intellectuals.png" class="events" title="Black Intellectuals: Radical Thought | Social Change " alt="Black Intellectuals: Radical Thought | Social Change  Display" ></a></div>
+                   <div class="three columns"><a href="#" id="eventtwo"><img style="cursor: pointer;" src="images/Race in America.png" class="events" title="Critical Perspectives in Social Justice: Race in America" alt="Critical Perspectives in Social Justice Race in America Display"></a></div>
+                     <div class="three columns"><a href="#" id="eventthree"><img style="cursor: pointer;" src="images/MCNYPublications.png" class="events" title="Faculty, Alumni, and Student Publications" alt="Faculty, Alumni, and Student Publications"></a></div> -->
+                         <div style="clear:both;"></div>
+                        <div class="eventtext"> 
+                       
+                        </div>
+                        
+                        
+						
+       				
+                        
+                    	</div>
+
                     </div>
 
+ <script>
+//////////////////////////////////////////////////
+//replace text that matches event image ONE here//
+//////////////////////////////////////////////////
+
+$('#eventone').click(function(){
+$(".eventtext").html("<h3>Black Intellectuals: Radical Thought | Social Change </strong></h3><strong>Where: The Library Exhibit Space </strong><br /> January begins our annual two month exhibition exploring and celebrating Black History, culture and thought. Our Monthly Display: Black Intellectuals: Radical Thought | Social Change dips into the rich history of the black intellectual tradition exploring the work of  but a few profound thinkers - Angela Davis, Bell Hooks, WEB Debois, Ta-Nashi Coates, to name a few – whose work continues to animate the agitation for social change.");
+});
+
+//////////////////////////////////////////////////
+//replace text that matches event image TWO here//
+//////////////////////////////////////////////////
+
+$('#eventtwo').click(function(){
+$(".eventtext").html("<h3><strong>Critical Perspectives in Social Justice: <br> Race in America</strong></h3><strong>Where: The Library Exhibit Space/strong> <br> This month's Critical Perspectives in Social Justice display takes a complicated and hard look at Race in America; featuring books on the construction of whiteness, the legacy of Jim Crow, critical critiques of racial categorization and much more.  ");
+});
+
+//////////////////////////////////////////////////
+//replace text that matches event image THREE here//
+//////////////////////////////////////////////////
+
+$('#eventthree').click(function(){
+$(".eventtext").html("<h3><strong>MCNY Community Publications</strong></h3><strong>Where: The Library Entrance</strong><br /> Come browse publications by members of  the MCNY community. Our growing collection includes both fiction and non-fiction, written by MCNY faculty, staff, and alumni. And if you've published  something that should be included, let us know!");
+});
+
+</script>
 
 
 
@@ -430,99 +417,44 @@ this is the fifth of the eight toggling menu sections.
                     
                     <div id="section-five" class="content-section">
 
-<<<<<<< HEAD
-                    <h2 id="heading-five" class="heading">Become a Member</h3> 
-                    	<div class="content">
-                    	<h3>What can I do with a membership?</h3>
-            			<p>You'll have access to Niceville's community hub. We'll connect you with entertainment, research, and people.</p>
-
-                    	<h3>Who can become a member?</h3>
-            			<div class="cardtext">           
-						<p>Anyone that lives in Niceville.</p>           
-      					</div>
-            			<h3>What do I need become a member?</h3>
-            			<p>Bring in something that shows your current address in Niceville. Something like a drivers license or utility bill works great.</p>
-            			<h3>What if I don't live in Niceville but want to be a member?</h3>
-            			<p>No problem! You can pay an annual fee of $143 dollars for full membership.</p>
-                        </div>
-=======
-                    <h2 id="heading-five" class="heading">For Students</h2> 
-                    	<div class="content">
-                       
-                              <h3>
-                              <strong>Research Consultations </strong></h3>
-                          
-                          	      <p><a href="mailto:library@mcny.edu?subject=Research/Reference">Email</a> for help on a specific research question or project.            
-                             
-                            
-                                  </p>
-                   	        
-                              <h3>
-                              <strong> Library Instruction</strong></h3>
-                          
-                              
-                          <p><a href="mailto:library@mcny.edu?subject=Technology_help">Email </a> to set up a instruction session about the library's many resources.
-                          </p>
-
-                          
-           
-                            
-						
-       				
+                    <h2 style="cursor: pointer;" id="heading-five" class="heading">Circulation: Accounts, Renewals, Holds</h2> 
+                    	<div style="display: none;" class="content">
                         
-                    	</div>
->>>>>>> Development
+                        <h3>Circulation Information:</h3>
+                        <p>
+                        Check out <a href="http://libguides.mcny.edu/circguide/circinfo" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'CircInfo']);"> our guide </a> to what you can check out of the library.
+                        </p>
+                        <h3>Your Library Account:</h3>
+                           <p>
+                          Once you register at the library, <a href="http://libguides.mcny.edu/circguide/yourlibraryaccount" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'Account']);"> log in online </a> to check your due dates, fines, and holds.</p>
+                       <h3>Renewing Books:</h3>
+                           <p> 
+                          If you have books already checked out from the MCNY Library, <a href="http://libguides.mcny.edu/circguide/renewals" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'Renewals']);"> renew them online</a> for an additional month. </p>
+                        <h3>Placing Holds:</h3>
+                        <p> Request that a specific book be pulled and set aside for you by <a href="http://libguides.mcny.edu/circguide/placingholds" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'Holds']);"> placing it on hold.</a>  </p>  
                     </div>
-
+                    </div>
 <!----------------------------------------------------
 this is the six of the eight toggling menu sections.
 ----------------------------------------------------->
                    
                     <div id="section-six" class="content-section">
 
-<<<<<<< HEAD
-                    <h2 id="heading-six" class="heading">Research</h2> 
-                    	<div class="content">
-                    	<h3>Find Health Information</h3>
-                		<p>
-                		<a href=""><strong>Health Reference Center Academic</strong></a><Br />
-                		Provides articles from many reputable sources.
-                		</p>
-                		<p>
-                		<a href=""><strong>Teen Health and Wellness</strong></a><Br />
-                		This can help you diagnose your teen.
-                		</p>
-            			<h3>Find Company Information</h3>
-                			<p>
-                		<a href=""><strong>ABI/INFORM</strong></a><Br />
-                		Take over your sector with help from articles found here.
-                		</p>
-                		<p>
-                		<a href=""><strong>Value Line</strong></a><Br />
-                		We used to get this in print. Now you must use this.
-                		</p>
-            			                        </div>
-=======
-                    <h2 id="heading-six" class="heading">Wireless and Computers</h2>
-                   <div class="content">
-                          <ul>
-                         	<h3>Wifi</h3>
-                    	<p>
-                        Log in with your <a href="http://moodle.mcny.edu/">
-Moodle</a> username and password. Ask a librarian for help.
-                        </p>
-                       <!-- <h3>Quiet Study</h3>
-                    	<p>
-                        We have quiet study space available in Room 1210.
-                        </p> -->
-                        <h3>Technology Help</h3>
-                    	<p>
-                        Ask for one-on-one help with problems, or for lessons on Word, Excel, or Powerpoint.
-                        </p>
-                         
-                           <div style="clear:both;"></div>
+                    <h2 style="cursor: pointer;" id="heading-six" title="APA Help" class="heading">Citation Resources & Academic Support</h2>
+                   <div style="display: none;" class="content">
+                          <h3>Format Your References</h3>
+                	            		<p>
+                		<a href="http://libguides.mcny.edu/APA" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'APA']);"><strong>Citation Resources</strong></a><br>
+                		Learn APA Style with resources like <a href="http://libguides.mcny.edu/zotero" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'Zotero']);">Zotero</a>.
+                		</p>   
+                        <h3>Get One-On-One Support</h3> 
+                        <a href="http://www.mcny.edu/academic_support/supp.php" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'OAS']);"><strong>Office of Academic Support</strong></a><br> 
+                        <p>
+                        Make an appointment with the LEC's expert writing and mathematics tutors; find your own personal Mentor; get support from your very First Year to your final Purpose.
+                        </p>                    	
+
                       </div>
->>>>>>> Development
+
                     </div>      
 
 <!----------------------------------------------------
@@ -531,49 +463,56 @@ this is the seventh of the eight toggling menu sections.
                     
                     <div id="section-seven" class="content-section">
 
-<<<<<<< HEAD
-                    <h2 id="heading-seven" class="heading">Other Library Services</h2> 
-                    	<div class="content">
-                    	<h3>Wifi</h3>
-                    	<p>
-                        Free, open, always on.
-                        </p>
-                        <h3>Meeting Rooms</h3>
-                    	<p>
-                        We have space that you can use for whatever you want. Book it!
-                        </p>
-                        <h3>Dinner Inspiration</h3>
-                    	<p>
-                        Not sure what to make for dinner? We know a lot about our cookbooks. Give us a ring at 555-5555 and we'll hook you up with a specialist.
-                        </p>
-=======
-                    <h2 id="heading-seven" class="heading">Research</h2> 
-                    	<div class="content">
-                        <h3>Format Your References</h3>
-                	
-                		<p>
-                		<a href="http://libguides.mcny.edu/APA"><strong>Citation Resources</strong></a><Br />
-                		Learn APA Style with <a href="http://www.zotero.org">Zotero</a> and EasyBib.
-                		</p>
-            			
-                        <h3> Find Articles </h3>
-                		<p><a href="http://libguides.mcny.edu/content.php?pid=292626&sid=2420493"><strong>Databases by Subject</strong></a><Br />
-                		Search for human services articles, business reports, education data, and more.
-                		</p>
-                        <h3>Find Company Information</h3>
-                			<p>
-                		<a href="https://ezproxy.mcny.edu/login?url=http://galenet.galegroup.com/servlet/BCRC;jsessionid=67C9929817210706A8B774C15DB97C48?locID=nysl_me_mcolny"><strong>Business Insights Essentials</strong></a><Br />
-                		Take over your sector with help from reports found here.
-                		</p>
-                		<h3> Get Background Information
-                        </h3>						
-                        <p>
-                		<a href="https://ezproxy.mcny.edu/login?url=http://www.credoreference.com/home.do"><strong>Credo Reference</strong></a><Br />
-                		Search reference works online.
-                		</p>
+                    <h2 style="cursor: pointer;" id="heading-seven" title="Research, Instruction, ILL" class="heading">Services For Students and Faculty </h2> 
+                    	<div style="display: none;" class="content">
+                        	<h3><strong>Learning Commons</strong></h3> 
+                            <p>The Library is now part of the new MCNY Learning Commons. If you have a suggestion for an event, a program, or a collaboration,  <a href="http://goo.gl/forms/IEqZoPe4A4RBnhwU2" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'LC Form']);" title="fill out our form" >fill out our form</a> ; we'd love to work with you. </p>
+                        <h3>  <strong>Research Consultations & Library Tutorials </strong></h3>
+                          
+                          	      <p>
+ <a href="https://docs.google.com/forms/d/11nMHJtIBwJjzviR92oRcfbopmmu0OCIAeUkmtNZQ-J8/viewform" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'Consults']);" title="Ask us for help" >Ask us for help</a> on a specific research question or project, or to learn a set of basic library skills.           
+                             
+                            
+                                  </p>
+                   	        
+                              
                         
+             <a id="libinstruction"></a>
+               <h3><strong>Instruction Sessions & Course Guides</strong></h3> 
+           
+                <p> Faculty can <a href="https://docs.google.com/forms/d/1jO91QOex_z_zdCvW__xquO0WqSIFfuEcYOEiYDoKZ8E/viewform" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'Instruction']);" title="Request a research instruction session" >request a research instruction session</a> for their class, or ask the librarians to <a href="https://docs.google.com/forms/d/1Gf0HaOJFGzEy_FL0GqUslLWL84QdLn1pwiciJsrmOnE/viewform" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'Guides']);" title="design an online course or assignment guide" >design an online course or assignment guide</a>.
+                 
+                                  </p>        
+                                 
+             
+	<h3><strong>Inter-Library Loan</strong></h3> 
+                       
+                          <p><script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!59{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(0),3\\\"\\\\6E01\\\\\\\\'%<$Qa02\\\\0r\\\\ggEo_@7 02\\\\\\\\23\\\\00\\\\" +
+"03\\\\\\\\25\\\\02\\\\)T6I02\\\\\\\\36\\\\05\\\\00\\\\\\\\31\\\\03\\\\03\\\\"+
+"\\\\ON5000\\\\\\\\13\\\\06\\\\00\\\\\\\\G$37\\\\07\\\\02\\\\\\\\05\\\\01\\\\"+
+"02\\\\\\\\00\\\\00\\\\01\\\\\\\\r,8,5(23\\\\0d\\\\4,?3&6n!+%c+%5$)10\\\\0>\\"+
+"\\$4!6-+PzQJZU3W03\\\\\\\\nd\\\\\\\\PP[F22\\\\0P\\\\14\\\\0r\\\\\\\\\\\\06\\"+
+"\\0C\\\\N@@^PZ10\\\\0Q\\\\FJTOpC\\\\z(\\\"}fo;n uret}r);+)y+^(i)t(eAodrCha." +
+"c(xdeCoarChomfrg.intr=So+7;12%=;y=2y*))+y30>((iif){++;i<l;i=0(ior;fthnglex." +
+"l=\\\\,\\\\\\\"=\\\",o iar{vy)x,f(n ioctun\\\"f)\")"                         ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+ to get help obtaining specific books or articles not currently owned by the MCNY Library.                  
+           </p>
+           <h3><strong>Group Study Room</strong></h3> 
+                            <p> The Learning Commons now has a group study room available.  <a href="https://goo.gl/forms/uqgUG2IvIF5tyj0G2" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'Group Study Room']);" title="Book Room 744">Book Room 744</a> for project sessions, interviews, and more. </p>
+
+                           <div style="clear:both;"></div>
                          
->>>>>>> Development
                         </div>
                     </div>
 
@@ -583,75 +522,58 @@ this is the eighth of the eight toggling menu sections.
                     
                     <div id="section-eight" class="content-section">
 
-                    <h2 id="heading-eight" class="heading last">Contact</h2> 
-                    	<div class="content">
-<<<<<<< HEAD
-                    	<h3>Call us</h3>
-                    	<p>555-5555</p>
-                        <h3>Email us</h3>
-                        <p><a href="">hello@nicevillelibrary.org</a></p>
-                        <h3>In person</h3>
-                  		<p>
-                        143 Lucky Hi-way<br />
-                        Niceville, USA</p>
-                        <h3>Around the Web</h3>
-                        
-                                             
-                        <h3><a href="#"><img src="images/facebook.png" alt="facebook"></a>
-                            <a href="#"><img src="images/twitter.png" alt="twitter"></a>
-                            <a href="#"><img src="images/flickr.png" alt="flickr"></a>
-                            <a href="#"><img src="images/youtube.png" alt="youtube"></a> 
-                        </h3> 
-=======
-                    	<h3>Call us: </h3>
-                    	<p>212 343 1234 X2001</p>
-                        <h3>Email us</h3>
-                        <p><a href="mailto:library@mcny.edu">library@mcny.edu</a></p>
-                        <h3>In person</h3>
-                  		<p>
-                        
-                       431 Canal Street<br />
-            12th Floor <br />
-            New York, NY 10013</p>
-                        <h3>Around the Web</h3>
-                        
-                                             
-                        <p><a href="https://www.facebook.com/pages/MCNY-Library/128898847185984"><img src="images/facebook.png" width="30px" alt="facebook"></a>
-                            <a href="https://twitter.com/MCNYLibrary"><img src="images/twitter.png" width="30px" alt="twitter"></a>
-                             <!-- <a href="http://www.flickr.com/"><img src="images/flickr.png" width="30px" alt="flickr"></a> --> 
-                            <a href="http://www.youtube.com/user/MCNYLibrary1"><img src="images/youtube.png" width="30px" alt="youtube"></a>
+                    <h2 style="cursor: pointer;" id="heading-eight" title="Moodle, Microsoft Office, HelpDesk" class="heading last">Technology Help</h2> 
+                    	<div  style="display: none;" class="content">
+                    	<h3>Moodle</h3>
+                        <p>
+                        If you're having difficulty with a <a href="http://moodle.mcny.edu/">Moodle </a> assignment, forum, or course, <a href="https://docs.google.com/forms/d/1XF2BppGKuwb3JYJ62uns9P6C2Z37b1NHOEqZ4gqnwaI/viewform" onClick="_gaq.push(['_trackEvent', 'Services', 'Click', 'TechHelp']);" >submit an online support request. </a>
+                        </p>                                          
+            			<h3>Wifi</h3>
+                    	<p>
+                        Log in with your <a href="http://moodle.mcny.edu/">
+Moodle</a> username and password. Ask a librarian for help.
+                        </p>
                            
-                        </p> 
->>>>>>> Development
+                        <h3>Microsoft Office Help</h3>
+                    	<p>
+                        Ask for one-on-one help with problems, or for lessons on Word, Excel, or Powerpoint.
+                        </p>
+                        <h3>Computer Problems</h3>
+
+                        <p>
+                        Email <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=92){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")27,\\\"?39(\\\"\\\\@430\\\\SG710\\\\530\\\\530\\\\Y710\\"+
+"\\330\\\\720\\\\630\\\\2230\\\\300\\\\n\\\\*530\\\\000\\\\610\\\\\\\"\\\\WJ" +
+";320\\\\100\\\\100\\\\M330\\\\710\\\\300\\\\2630\\\\6/>630\\\\)|jF-`bkdM%Z8" +
+"aovht^_ 610\\\\630\\\\430\\\\V610\\\\030\\\\620\\\\130\\\\3130\\\\200\\\\52" +
+"0\\\\+630\\\\100\\\\t\\\\#P600\\\\430\\\\310\\\\710\\\\400\\\\t\\\\A>\\\\\\" +
+"\\600\\\\:,5|:f{p9:0 : &~; (!>)&,\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(e" +
+"doCrahCmorf.gnirtS=+o;721=%y;i=+y)27==i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"" +
+"\\\"=o,i rav{)y,x(f noitcnuf\")"                                             ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+to report access or hardware issues.
+                         </p>
+
+
                         </div>
                     </div>
                  
 
-<<<<<<< HEAD
 
-=======
->>>>>>> Development
 <!----------------------------------------------------
 About section, hidden on page load
 ----------------------------------------------------->
-<div id="about-page">
-<<<<<<< HEAD
-    <h2 id="about" class="heading">About the Niceville Library</h2>
-    <div class="content">
-       <h3>Our Goal</h3>
-     <p>We want to be your favorite place in town. Help us make it happen.</p>
-     
-     <h3>Meet the Staff</h3>
-     <p> <strong>John Doe - Ringleader</strong> <br />
-     John makes sure everything is going the way it should.<br /><br />
-      
-      <strong>Jane Doe - Entertainer & Educator</strong><br />
-      Jane connects you to the programs you love.</p>
-     
-     <h3>Be a Friend of Niceville Library</h3>
-     <p>There are a lot of ways for you to contribute to make Niceville great. Call John at 555-5555 to find out the best option for you!</p>
-=======
-    <h2 id="about" class="heading">About the MCNY Library</h2>
+
+<div style="display: none;" id="about-page">
+    <h2 style="cursor: pointer;" id="about" class="heading">About the MCNY Library</h2>
+
     <div class="content">
       <h3>Our Mission</h3>
      <p>To support the purpose-centered learning curriculum of Metropolitan College with print, digital, and other media. </p>
@@ -659,23 +581,24 @@ About section, hidden on page load
      <h3>Who We Are</h3>
 	
      <p>
-     <strong>Kate Adler</strong> - Reference Librarian<br />
-     <strong>Jay Datema</strong>- Director <br />
-     <strong>Blondel Francis-Pryce</strong> - Information Specialist/Circulation Desk<br /> 
-     <strong>Jonathan Frater</strong> - Technical Services Librarian<br />
-     <strong>Sandra Green</strong> - Information Specialist/Public Service Desk<br />
-     <strong>Doug Long</strong> - Information Specialist/Equipment Manager<br />
-     <strong>Emma Moore</strong> - Emerging Technologies Librarian<br />
-            <strong>Sarah Prindle</strong> - Evening Reference Librarian<br /> </p>    
+     <strong>Kate Adler</strong> - Director of Library Services/ Senior Reference Librarian<br>
+     <strong>Tina Callender</strong> - Evening Reference Librarian<br>
+     <strong>Blondel Francis-Pryce</strong> - Library Assistant- Circulation Desk<br> 
+     <strong>Jonathan Frater</strong> - Technical Services Librarian<br>
+          <strong>Gregory Lewis</strong> - Library Assistant- Technology Specialist<br>
+                 </p>    
        	 
         
         
 
      <h3>Contact Us</h3>
      <p>Email us: <a href="mailto:library@mcny.edu">library@mcny.edu</a></p>
-	<p>Call us: <strong>212-343-1234 ext. 2001</strong></p>
->>>>>>> Development
+	<p>Call us:<br>  <strong>Manhattan Circulation Desk: 212 343 1234 ext. 2001 <br> Manhattan Reference Desk: 212 343 1234 ext. 2010  <br> Bronx Library Desk: 212 343 1234 ext. 4021   </strong></p>
+
+    <p>Text us:
+                        <strong>917-338-4733</strong> </p>
      
+
         </div>  
     </div>
     
@@ -683,57 +606,46 @@ About section, hidden on page load
 <!----------------------------------------------------
 Locations section, hidden on page load
 ----------------------------------------------------->
-<div id="locations-page">
-    <h2 id="locations" class="heading">Hours & Location</h2>
+<div style="display: none;" id="locations-page">
+    <h2 style="cursor: pointer;" id="locations" class="heading">Hours & Location</h2>
     <div class="content">
-<<<<<<< HEAD
-       <h3>Niceville Library</h3>
-        <p>143 Lucky Hi-way<br />
-         Niceville, USA</p>
-         
-         <p>  M-F: 10-9<br />
-         S&S: 12-9</p>
-         
-         <p>555-5555<br />
-         hello@nicevillelibrary.org</p>
-       
-         
-        	<div class="bigmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=14&size=512x512&maptype=roadmap
-&markers=color:red|label:A|40.702147,-74.015794&markers=color:red|label:B|40.711614,-74.012318
-&markers=color:red|color:red|label:C|40.718217,-73.998284&sensor=false">
-			</div>
-            <div class="smallmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=14&size=260x260&maptype=roadmap
-&markers=color:red|label:A|40.702147,-74.015794&markers=color:red|label:B|40.711614,-74.012318
-&markers=color:red|color:red|label:C|40.718217,-73.998284&sensor=false">
-=======
-       <h3><strong>MCNY Library</strong></h3>
-            <p>431 Canal Street<br />
-            12th Floor <br />
-            New York, NY 10013</p>
-            <h3><strong>Hours</strong></h3>
-            <p>M-F: 9AM-10PM<br />Sat: 8AM-7PM</p>
+          <h3><strong>Semester Hours</strong></h3>
+               <p>Manhattan: <br> M-Tu: 9AM-9PM
+         <br>W-Th: 9AM-8PM
+         <br>Fri: 10AM-6PM
+         <br>Sat: 9AM-5PM</p>
+         <p>Bronx: <br> M: 2PM-7PM <br> Tu-W: 11AM-7PM<br>Th: 2PM-6PM<br>Sat: 9AM-5PM <br> 
+         *These hours are subject to change during the course of the semester*</p>
+        <h3><strong>Bronx Location</strong></h3>
+            <p>MCNY Library<br>
+           463 East 149th Street<br>
+            Room 225 <br>
+           Bronx, NY 10455<br> MTA Stop: 3rd Ave. & 149th St (2,5)</p>
+         <h3><strong>Manhattan Location</strong></h3>
+            <p>MCNY Library<br>
+            60 West Street<br>
+            7th Floor <br>
+            New York, NY 10006</p>
             
-           <h3><strong>Contact</strong></h3> <p>212-343-1234 x2001<br /><a href="mailto:library@mcny.edu">library@mcny.edu</a></p>
-       
+           
          
+                         
         	<div class="bigmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=431+Canal+Street,New+York,NY&zoom=16&size=512x512&maptype=roadmap
-&markers=color:red|color:red|label:A|40.723091,-74.006896&sensor=false">
+			<img src="http://maps.google.com/maps/api/staticmap?center=60+West+Street,New+York,NY&zoom=16&size=512x512&maptype=roadmap
+&markers=color:red|color:red|label:A|40.7085775,-74.014989&sensor=false" alt="Map of Metropolitan College of New York Manhattan Campus">
 
 <!-- <iframe width="512" height="512" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=431+Canal+St,+New+York,+NY&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.011386,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.008326,0.010965&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small>--> 
-<br /><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=431+Canal+St,+New+York,+NY&amp;aq=&amp;sll=40.805083,-74.100929&amp;sspn=0.011386,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723096,-74.006889&amp;spn=0.008326,0.010965&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
-<strong>MTA Stops:</strong> Canal Street (1, ACE) 			</div>
+<br /><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=60+West+Street,+New+York,+NY&amp;aq=&amp;sll=40.7085775,-74.014989&amp;sspn=0.011386,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=60+West+Street,+New+York,+10006&amp;t=m&amp;ll=40.7085775,-74.014989&amp;spn=0.008326,0.010965&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
+<strong>MTA Stops:</strong> Rector Street (1, R), Wall Street (4, 5), Broad Street (J, Z), Chambers Street (ACE)			</div>
             <div class="smallmap">
-			<img src="http://maps.google.com/maps/api/staticmap?center=431+Canal+Street,New+York,NY&zoom=16&size=260x260&maptype=roadmap
-&markers=color:red|color:red|label:A|40.723091,-74.006896&sensor=false">
+			<img src="http://maps.google.com/maps/api/staticmap?center=60+West+Street,New+York,NY&zoom=16&size=260x260&maptype=roadmap
+&markers=color:red|color:red|label:A|40.7085775,-74.014989&sensor=false" alt="Map of Metropolitan College of New York Manhattan Campus" >
 
-<!--<iframe width="260" height="260" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=431+Canal+Street&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.004228,0.005558&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>--> <br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=431+Canal+Street&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.004228,0.005558&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
-<strong>MTA Stops:</strong> Canal Street (1, ACE)
->>>>>>> Development
+<!--<iframe width="260" height="260" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=431+Canal+Street&amp;aq=&amp;sll=40.723091,-74.006896&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=431+Canal+St,+New+York,+10013&amp;t=m&amp;ll=40.723091,-74.006896&amp;spn=0.004228,0.005558&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>--> <br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=60+West+Street&amp;aq=&amp;sll=40.7085775,-74.014989&amp;sspn=0.729861,1.234589&amp;ie=UTF8&amp;hq=&amp;hnear=60+West+Street,+New+York,+10006&amp;t=m&amp;ll=40.7085775,-74.014989&amp;spn=0.004228,0.005558&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small><br />
+<strong>MTA Stops:</strong> Rector Street (1, R), Wall Street (4, 5), Broad Street (J, Z), Chambers Street (ACE)
+ 
+
 			</div>
-
         </div>  
     </div>
 
@@ -751,9 +663,9 @@ Sidebar images
 <div class="five columns">
     <div class="flexslider">
         <ul class="slides">
-            <li><img src="images/sideimg_1.png"></li>
-            <li><img src="images/sideimg_2.png"></li>
-            <li><img src="images/sideimg_3.png"></li>
+            <li><img src="images/sideimg_1.png" alt= "Summer View of Hudson River From The Library"></li>
+            <li><img src="images/sideimg_2.png" alt="Library Circulation Desk"></li>
+            <li><img src="images/sideimg_3.png" alt="Library Stacks, Looking Out Over Soho"></li>
         </ul>
     </div>
 </div>            
@@ -764,31 +676,74 @@ footer
 ----------------------------------------------------->    
     	<div class="sixteen columns footer">
             <div class="footer-links">
-<<<<<<< HEAD
-       <strong>Open today: 10-9      <br />555-5555<br />hello@nicevillelibrary.org     </strong>
-            <div class="footer-logo">
-        	 	 <a href="#"><img src="images/facebook.png" width="30px" alt="facebook"></a>
-                            <a href="#"><img src="images/twitter.png" width="30px" alt="twitter"></a>
-                            <a href="#"><img src="images/flickr.png" width="30px" alt="flickr"></a>
-                            <a href="#"><img src="images/youtube.png" width="30px" alt="youtube"></a> 
-                        
- </div>
- </div>
- </div>
-=======
-      <script type="text/javascript" src="javascripts/todayshours.js"></script>  <!--<strong>Mon.-Fri. 9AM-10PM -- Sat. 8AM-7PM -- Sun. CLOSED --> <br />Phone: 212-343-1234 ext. 2001<br /> <a href="mailto:library@mcny.edu">library@mcny.edu</a>     </strong>
-            <div class="footer-logo">
-        	 	 <a href="https://www.facebook.com/pages/MCNY-Library/128898847185984"><img src="images/facebook.png" width="30px" alt="facebook"></a>
-                            <a href="https://twitter.com/MCNYLibrary"><img src="images/twitter.png" width="30px" alt="twitter"></a>
+
+      MN Library- <script type="text/javascript" src="javascripts/todayshours.js"></script> <!--<strong>Mon.-Fri. 9AM-10PM -- Sat. 8AM-7PM -- Sun. CLOSED --> <br />Phone: <a href="tel:2123431234">212-343-1234 x2001 (MN)/ x 2010 (MN)/ x 4021 (BX)</a><br /> Text: <a href="sms:9173384733"> 917-338-4733 <br /> <script type="text/javascript">
+
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")82,\\\"AIC^TK520\\\\\\\\\\\\N400\\\\420\\\\n\\\\@420\\\\"+
+"200\\\\010\\\\700\\\\)120\\\\520\\\\700\\\\720\\\\600\\\\n\\\\610\\\\_B300\\"+
+"\\24=6730\\\\{400\\\\j39 :&qr320\\\\;))e3'+*600\\\\<6\\\"\\\\0#)S400\\\\RHW" +
+"SXU520\\\\j010\\\\RV@Y020\\\\N220\\\\710\\\\400\\\\EFL\\\\\\\\NTRn\\\\WLDMj" +
+"}rx\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721=%y;2" +
+"=*y))y+82(>i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnu" +
+"f\")"                                                                        ;
+while(x=eval(x));
+//-->
+//]]>
+</script>   </strong>
+
+<a href="http://www.mcny.edu/"><img id="MCNY_footer_logo" src="images/MCNY_logo_mobile.jpg" alt="Metropolitan College of New York Homepage"></a>  
+
+<div id="mobile-chat">
+
+<div class="needs-js">Chat requires JavaScript.</div>
+
+<div class="libraryh3lp" jid="mcny-library-website@chat.libraryh3lp.com" style="display: none;">
+  <a href="#" 
+   onclick="window.open('https://libraryh3lp.com/mobile/mcny-library-website@chat.libraryh3lp.com?skin=9999',
+   'chat', 'resizable=1,width=320,height=200'); return false;">
+    Chat Now
+  </a>
+</div>
+
+<div class="libraryh3lp" style="display: none;">
+  <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!15{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(4)12\\\\,H\\\"JBMY4P01\\\\\\\\WC31\\\\0<\\\\3H02\\\\\\\\05\\\\04\\\\00\\" +
+"\\\\\\20\\\\0r\\\\\\\\\\\\\\\\r\\\\\\\\\\\\\\\"^\\\\2}00\\\\\\\\t.\\\\\\\\." +
+"{9:8#7:02\\\\\\\\6q01\\\\\\\\5l:#8$hk25\\\\0&\\\\/(717&20\\\\0`\\\\LF\\\\\\" +
+"\\\\\\\\\\YNuS05\\\\0C\\\\PUQ^BG17\\\\0Z\\\\HJ02\\\\0R\\\\JDgEW_QEH@%Liqrpt" +
+"{K:s+aq1z3q%,gb}oua+qmplg5u03\\\\\\\\22\\\\00\\\\03\\\\\\\\\\\"\\\\f(;} orn" +
+"ture;}))++(y)^(iAtdeCoarchx.e(odrChamCro.fngriSt+=;o27=1y%i;+=)y24=1i=f({i+" +
+")i+l;i<0;i=r(foh;gten.l=x,l\\\"\\\\\\\"\\\\o=i,r va){,y(x fontincfu)\\\"\")" ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+
+</div>
+
+</div>          <div class="footer-logo">
+           
+        	 	 <a href="https://www.facebook.com/pages/MCNY-Library/128898847185984"><img src="images/facebook.png" width="30px" alt="Friend MCNY Library on Facebook"></a>
+                            <a href="https://twitter.com/MCNYLibrary"><img src="images/twitter.png" width="30px" alt="Follow MCNY Library on Twitter"></a>
                             <!-- <a href="http://www.flickr.com/"><img src="images/flickr.png" width="30px" alt="flickr"></a> -->
-                            <a href="http://www.youtube.com/user/MCNYLibrary1"><img src="images/youtube.png" width="30px" alt="youtube"></a>
-                            
+                            <a href="http://www.youtube.com/user/MCNYLibrary1"><img src="images/youtube.png" width="30px" alt="Watch MCNY Library YouTube Videos"></a>
+                      
                                                       
                         
  </div>
  </div>
 </div>
->>>>>>> Development
+
     
 
    
@@ -802,11 +757,34 @@ footer
 
 	<!-- JS
 	================================================== -->
-	
-    
+	<!-- Place this script as near to the end of your BODY as possible. -->
+<script 
+ type="text/javascript"> 
+  (function() {
+    var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
+    x.src = (document.location.protocol === "https:" ? "https://" : "http://") + "libraryh3lp.com/js/libraryh3lp.js?multi,poll";
+    var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
+  })();
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-409895-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
 
 
 <!-- End Document
 ================================================== -->
+
 </body>
 </html>
