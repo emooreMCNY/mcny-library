@@ -1,4 +1,12 @@
 
+version 6.33, 03/10/17
+-----------------------------
+
+* Updated Image for Monthly Display
+* Updated Text for Monthly Display
+* Updated Image for Women's Activism Display
+* Updated Text for Women's Activism Display
+
 version 6.32, 02/24/17
 -----------------------------
 
